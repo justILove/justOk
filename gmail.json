@@ -1,0 +1,66 @@
+<?php
+
+	$emails = array(
+		array(
+			'email' => 'qwesadsad2@gmail.com',
+			'pass'  => 'qwesadsad2_17'
+		),
+		array(
+			'email' => 'justmymewacc201@gmail.com',
+			'pass'  => 'justmymewacc201_17'
+		),
+		array(
+			'email' => 'justparamsa1889@gmail.com',
+			'pass'  => 'justparamsa1889_17'
+		),
+		array(
+			'email' => 'qwerty2164948@gmail.com',
+			'pass'  => 'qwerty2164948_17',
+			'desc'  => 'fr'
+		),
+		array(
+			'email' => 'mariaba6354@gmail.com',
+			'pass'  => 'mariaba_17'
+		),
+		array(
+			'email' => 'justim17je@gmail.com',
+			'pass'  => 'justim17je_17'
+		),
+		array(
+			'email' => 'saddadsadasdasd@gmail.com',
+			'pass'  => 'saddadsadasdasd_17'
+		),
+		array(
+			'email' => 'avasqqqs@gmail.com',
+			'pass'  => 'avasqqqs_17'
+		),
+		array(
+			'email' => 'qwesadsad21@gmail.com',
+			'pass'  => 'qwesadsad21_17'
+		),
+		array(
+			'email' => 'justiamjsut@gmail.com',
+			'pass'  => 'justiamjsut_17'
+		),
+		array(
+			'email' => 'asdasddssadavas@gmail.com',
+			'pass'  => 'asdasddssadavas_17'
+		),
+		array(
+			'email' => 'vbbbbbb639@gmail.com',
+			'pass'  => 'vbbbbbb639_17'
+		),
+		array(
+			'email' => 'asvasdasadasas@gmail.com',
+			'pass'  => 'asvasdasadasas_17'
+		),
+		array(
+			'email' => 'aasdasdas830@gmail.com',
+			'pass'  => 'aasdasdas830_17'
+		),
+		array(
+			'email' => '@gmail.com',
+			'pass'  => ''
+		)
+
+	);

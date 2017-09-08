@@ -1,0 +1,35 @@
+{
+	
+	"name":"OkBot",
+	"info":{"en": "Ok Bot", "ru": "Ok Bot"},
+	"icon":"ok.png",
+	"description":"Ok bot",
+	"description_small":{"en": "Ok Bot", "ru": "Ok Bot"},
+	"major_version": 2,
+	"minor_version": 1,
+	"developer_name": "bablosoft", 
+	"developer_email": "mail.to.twaego@gmail.com", 
+	"developer_site": "https://bablosoft.com",
+	"api_version": 1,
+	"actions":
+	[
+
+		{
+			"name":"OKBotInit",
+			"description":{"en": "Initialization OKBot ","ru": "Инициализация ОК Бота"},
+			"template": "{{Variable}}",
+			"is_element": false,
+			"interface": "OKBotInit_interface.js",
+			"select": "OKBotInit_select.js",
+			"code": [{"file":"OKBotInit_code.js", "name": "OKBotInit_code"}]
+		}
+	],
+	"localize": 
+	{
+		
+	},
+	"engine":	["OkBot_init.js", "OkBot_post.js", "OkBot_task.js", "OkBot_tools.js"],
+	"browser": [],
+	"depends": []	
+}
+
