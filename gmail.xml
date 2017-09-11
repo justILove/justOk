@@ -1403,7 +1403,7 @@ DebugScenario=false
           <Model>
                <Name>ID группы</Name>
                <Description en="ID группы" ru="ID группы"/>
-               <SectionName ru=""/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
