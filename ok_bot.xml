@@ -8,6 +8,57 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
    section_end()!
 
+   section_start("\u007b\u0022n\u0022:\u0022ok___logourFromAcc\u0022\u007d", 286875861)!
+   function ok___logourFromAcc()
+   {
+   section_insert()
+      section_start("", 61509622)!
+      /*Dat:eyJzIjoic2Nyb2xsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJZIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxIiwiY2xhc3MiOiJpbnQifV19*/
+      /*Browser*/
+      scroll(1,1)!
+      section_end()!
+
+      section_start("", 715900337)!
+      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAueC1waF9fbGlua19sYXN0IiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gdHIgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgzKSIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC54LXBoX19saW5rX2xhc3QiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGEgaHJlZj1cIi9mZWVkXCIgY2xhc3M9XCJ4LXBoX19saW5rIHgtcGhfXyIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJtYWlsUnVUb29sYmFyXCIpL3RhYmxlW0BjbGFzcz1cIncteC1waFwiXS90Ym9keVsxXS90clsxXS90ZFtAY2xhc3M9XCJ3LXgtcGhfX2NvbCB3LXgtcGhfX2NvbF9yaWdodFwiXS9hW0BjbGFzcz1cIngtcGhfX2xpbmsgeC1waF9fbGlua19sYXN0XCJdIiwiYXQiOiI5NjEsIDExIiwid2UiOnRydWUsImZhIjp0cnVlfX0=*/
+      /*Browser*/
+      _SELECTOR = " \u003eCSS\u003e .x-ph__link_last";
+      wait_element_visible(_SELECTOR)!
+      get_element_selector(_SELECTOR, false).random_point()!
+      _if(_result().length > 0, function(){
+      move( {} )!
+      get_element_selector(_SELECTOR, false).clarify(X,Y)!
+      _call(_clarify, {} )!
+      mouse(X,Y)!
+      })!
+      section_end()!
+
+      section_start("", 590872931)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIzMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      sleep(3000)!
+      section_end()!
+
+      section_start("", 144605889)!
+      /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjaG9va19Gb3JtQnV0dG9uX2xvZ29mZlxcLmNvbmZpcm1fbm90X2RlY29yYXRlIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gI2hvb2tfRm9ybUJ1dHRvbl9sb2dvZmZcXC5jb25maXJtX25vdF9kZWNvcmF0ZSIsImNzczIiOiIgPkNTUz4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMikgPiBpbnB1dCIsImNzczMiOiIiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGlucHV0IGNsYXNzPVwiYnV0dG9uLXBybyBmb3JtLWFjdGlvbnNfeWUiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiaG9va19Gb3JtQnV0dG9uX2xvZ29mZi5jb25maXJtX25vdF9kZWNvcmF0ZVwiKSIsImF0IjoiNDQyLCAyNjMiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+      /*Browser*/
+      _SELECTOR = " \u003eCSS\u003e #hook_FormButton_logoff\u005c.confirm_not_decorate";
+      wait_element_visible(_SELECTOR)!
+      get_element_selector(_SELECTOR, false).random_point()!
+      _if(_result().length > 0, function(){
+      move( {} )!
+      get_element_selector(_SELECTOR, false).clarify(X,Y)!
+      _call(_clarify, {} )!
+      mouse(X,Y)!
+      })!
+      section_end()!
+
+      section_start("", 469639312)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      sleep(5000)!
+      section_end()!
+
+   }
+   section_end()!
+
    section_start("\u007b\u0022n\u0022:\u0022profile___addMusic\u0022\u007d", 710345294)!
    function profile___addMusic()
    {
@@ -1475,7 +1526,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
       section_start("", 160195187)!
       /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJTdGFydEludml0ZVN0YXRlVjMifV19*/
-      _long_goto("StartInviteStateV3", -1, ["_internal_6031538"])!
+      _long_goto("StartInviteStateV3", -1, ["_internal_4098692"])!
       section_end()!
 
    }
@@ -1611,7 +1662,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
    }
    section_end()!
 
-   _set_goto_label("_internal_6031538")!section_start("\u007b\u0022n\u0022:\u0022check_new_friends\u0022\u007d", 809067853)!
+   _set_goto_label("_internal_4098692")!section_start("\u007b\u0022n\u0022:\u0022check_new_friends\u0022\u007d", 809067853)!
    function check_new_friends()
    {
    section_insert()
@@ -3346,6 +3397,18 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
             })!
             section_end()!
 
+            section_start("", 890840325)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0lTX0FVVEhdXSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+            _if(VAR_IS_AUTH,function(){
+            section_insert()
+               section_start("", 163795550)!
+               /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9rX19fbG9nb3VyRnJvbUFjYyJ9XX0=*/
+               _call(ok___logourFromAcc,null)!
+               section_end()!
+
+            })!
+            section_end()!
+
          })!
          section_end()!
 
@@ -4157,7 +4220,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
                   section_insert()
                      section_start("", 77846609)!
                      /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-                     _long_goto("startInvite", -1, [null,"_internal_2845222"])!
+                     _long_goto("startInvite", -1, [null,"_internal_9718408"])!
                      section_end()!
 
                   })!
@@ -4429,7 +4492,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
                         section_start("", 729073483)!
                         /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-                        _long_goto("startInvite", -1, [null,"_internal_2845222"])!
+                        _long_goto("startInvite", -1, [null,"_internal_9718408"])!
                         section_end()!
 
                      })!
@@ -4457,7 +4520,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
             section_start("", 237551513)!
             /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-            _long_goto("startInvite", -1, [null,"_internal_2845222"])!
+            _long_goto("startInvite", -1, [null,"_internal_9718408"])!
             section_end()!
 
          })!
@@ -4465,7 +4528,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
          section_start("", 261221313)!
          /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-         _long_goto("startInvite", -1, [null,"_internal_2845222"])!
+         _long_goto("startInvite", -1, [null,"_internal_9718408"])!
          section_end()!
 
       },null)!
@@ -5213,7 +5276,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
    })!
    section_end()!
 
-   _set_goto_label("_internal_2845222")!section_start("", 949931605)!
+   _set_goto_label("_internal_9718408")!section_start("", 949931605)!
    /*Dat:eyJzIjoibGFiZWwiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTGFiZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImxvZ291dCIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
    _set_goto_label("logout")!
    section_end()!
@@ -5236,13 +5299,13 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>20.3.0</EngineVersion>
-     <SettingsWorker>EnableFlash=false
+     <SettingsWorker>EnableFlash=true
 ProxiesReconnect=true
 ForceUtf8=true
 IsSafe=false
 SkipFrames=1
-ToolboxHeight=228
-ScenarioWidth=542
+ToolboxHeight=183
+ScenarioWidth=430
 Zoom=100
 IsMaximized=true
 Restart=false
@@ -5252,6 +5315,10 @@ DebugScenario=false
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing</ChromeCommandLine>
+     <ModulesMetaJson>{
+    &quot;TRAVIAN&quot;: false
+}
+</ModulesMetaJson>
      <OutputTitle1 en="" ru=""/>
      <OutputTitle2 en="" ru=""/>
      <OutputTitle3 en="" ru=""/>
