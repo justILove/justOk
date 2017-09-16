@@ -2019,7 +2019,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
       section_start("", 160195187)!
       /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJTdGFydEludml0ZVN0YXRlVjMifV19*/
-      _long_goto("StartInviteStateV3", -1, ["_internal_4557039"])!
+      _long_goto("StartInviteStateV3", -1, ["_internal_5569566"])!
       section_end()!
 
    }
@@ -2155,7 +2155,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
    }
    section_end()!
 
-   _set_goto_label("_internal_4557039")!section_start("\u007b\u0022n\u0022:\u0022check_new_friends\u0022\u007d", 809067853)!
+   _set_goto_label("_internal_5569566")!section_start("\u007b\u0022n\u0022:\u0022check_new_friends\u0022\u007d", 809067853)!
    function check_new_friends()
    {
    section_insert()
@@ -2664,10 +2664,10 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
       section_end()!
 
       section_start("", 130773935)!
-      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NZQ0xFX0lOREVYXV0gPCA1MCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
       _do(function(){
       VAR_CYCLE_INDEX = _iterator() - 1
-      BREAK_CONDITION = VAR_CYCLE_INDEX < 50;
+      BREAK_CONDITION = true;
       if(!BREAK_CONDITION)_break();
       section_insert()
          section_start("", 576375198)!
@@ -4713,7 +4713,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
                   section_insert()
                      section_start("", 77846609)!
                      /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-                     _long_goto("startInvite", -1, [null,"_internal_6896699"])!
+                     _long_goto("startInvite", -1, [null,"_internal_2876823"])!
                      section_end()!
 
                   })!
@@ -4985,7 +4985,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
                         section_start("", 729073483)!
                         /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-                        _long_goto("startInvite", -1, [null,"_internal_6896699"])!
+                        _long_goto("startInvite", -1, [null,"_internal_2876823"])!
                         section_end()!
 
                      })!
@@ -5013,7 +5013,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
             section_start("", 237551513)!
             /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-            _long_goto("startInvite", -1, [null,"_internal_6896699"])!
+            _long_goto("startInvite", -1, [null,"_internal_2876823"])!
             section_end()!
 
          })!
@@ -5021,7 +5021,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
          section_start("", 261221313)!
          /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-         _long_goto("startInvite", -1, [null,"_internal_6896699"])!
+         _long_goto("startInvite", -1, [null,"_internal_2876823"])!
          section_end()!
 
       },null)!
@@ -5759,7 +5759,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
    })!
    section_end()!
 
-   _set_goto_label("_internal_6896699")!section_start("", 949931605)!
+   _set_goto_label("_internal_2876823")!section_start("", 949931605)!
    /*Dat:eyJzIjoibGFiZWwiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTGFiZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImxvZ291dCIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
    _set_goto_label("logout")!
    section_end()!
@@ -5798,19 +5798,15 @@ DebugScenario=false
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing</ChromeCommandLine>
-     <ModulesMetaJson>{
-    &quot;TRAVIAN&quot;: false
-}
-</ModulesMetaJson>
-     <OutputTitle1 ru="" en=""/>
-     <OutputTitle2 ru="" en=""/>
-     <OutputTitle3 ru="" en=""/>
-     <OutputTitle4 ru="" en=""/>
-     <OutputTitle5 ru="" en=""/>
-     <OutputTitle6 ru="" en=""/>
-     <OutputTitle7 ru="" en=""/>
-     <OutputTitle8 ru="" en=""/>
-     <OutputTitle9 ru="" en=""/>
+     <OutputTitle1 en="" ru=""/>
+     <OutputTitle2 en="" ru=""/>
+     <OutputTitle3 en="" ru=""/>
+     <OutputTitle4 en="" ru=""/>
+     <OutputTitle5 en="" ru=""/>
+     <OutputTitle6 en="" ru=""/>
+     <OutputTitle7 en="" ru=""/>
+     <OutputTitle8 en="" ru=""/>
+     <OutputTitle9 en="" ru=""/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>0</OutputVisible2>
      <OutputVisible3>0</OutputVisible3>
@@ -5823,8 +5819,8 @@ DebugScenario=false
      <ModelList>
           <Model>
                <Name>threats</Name>
-               <Description ru="Потоки" en="PLEASE FILL DESCRIPTION"/>
-               <SectionName ru="" en=""/>
+               <Description en="PLEASE FILL DESCRIPTION" ru="Потоки"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -5839,8 +5835,8 @@ DebugScenario=false
           <Defaults/>
           <Model>
                <Name>debug</Name>
-               <Description ru="debug" en="debug"/>
-               <SectionName ru="" en=""/>
+               <Description en="debug" ru="debug"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
