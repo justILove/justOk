@@ -5831,10 +5831,6 @@ DebugScenario=false
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing</ChromeCommandLine>
-     <ModulesMetaJson>{
-    &quot;TRAVIAN&quot;: false
-}
-</ModulesMetaJson>
      <OutputTitle1 en="" ru=""/>
      <OutputTitle2 en="" ru=""/>
      <OutputTitle3 en="" ru=""/>
