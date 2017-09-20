@@ -181,11 +181,6 @@
       /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAuc21zQW5zd2VyLnR6aWQiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
       _if(app.smsAnswer.tzid,function(){
       section_insert()
-         section_start("", 296140617)!
-         /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fcGxheV9zb3VuZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W119*/
-         native("usernotification", "playsound", "")
-         section_end()!
-
          section_start("", 480380568)!
          /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMudHppZCA9IGFwcC5zbXNBbnN3ZXIudHppZDsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
          app.sms.tzid = app.smsAnswer.tzid;
@@ -339,23 +334,12 @@
          })!
          section_end()!
 
-         section_start("", 782762382)!
-         /*Dat:eyJzIjoiZXhpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiSVNfRVhJU1RTIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IDpudGgtY2hpbGQoNSkgPiA6bnRoLWNoaWxkKDEpID4gdGFibGUgPiB0Ym9keSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDUpIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gOm50aC1jaGlsZCg1KSA+IDpudGgtY2hpbGQoMSkgPiB0YWJsZSA+IHRib2R5ID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoNSkiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAuYTJxID4gLkYgPiB0Ym9keSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDUpIiwiY3VycmVudCI6Im1hdGNoIiwibWF0Y2giOiI+TUFUQ0g+PGI+0JLQvtGB0YHRgtCw0L3QvtCy0LvQtdC90LjQtSDQv9Cw0YDQvtC70Y8g0L3QsCDQntC00L3QvtC60LvQsNGB0YHQvdC40LoiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiOjJcIikvZGl2W0BjbGFzcz1cIm5IXCJdL2RpdltAY2xhc3M9XCJCbHRIa2Ugbkggb3k4TWJmIGFFM1wiXS9kaXZbQGNsYXNzPVwiYUtCXCJdL2RpdltAY2xhc3M9XCJhMnFcIl0vdGFibGVbQGNsYXNzPVwiRiBjZlwiXS90Ym9keVsxXS90cltAY2xhc3M9XCJhS0EgRDZOSDBiICB6RVwiXS90ZFtAY2xhc3M9XCJhUkFcIl0iLCJhdCI6IjU0NCwgMjA0Iiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
+         section_start("", 759572469)!
+         /*Dat:eyJzIjoiZXhpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiSVNfRVhJU1RTIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjXFwzQSA1NCIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNcXDNBIDU0IiwiY3NzMiI6IiA+Q1NTPiB0ciA+IDpudGgtY2hpbGQoNikgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IGRpdiA+IDpudGgtY2hpbGQoMSkiLCJjc3MzIjoiIiwiY3VycmVudCI6Im1hdGNoIiwibWF0Y2giOiI+TUFUQ0g+PtCS0L7RgdGB0YLQsNC90L7QstC70LXQvdC4IiwieHBhdGgiOiIgPlhQQVRIPiBpZChcIjo1NFwiKSIsImF0IjoiNTI2LCAyNjciLCJ3ZSI6ZmFsc2UsImZhIjpmYWxzZX19*/
          /*Browser*/
-         ;_SELECTOR="\u003eMATCH\u003e\u003cb\u003eВосстановление пароля на Одноклассник";
+         ;_SELECTOR="\u003eMATCH\u003e\u003eВосстановлени";
          get_element_selector(_SELECTOR, false).nowait().exist()!
          VAR_IS_EXISTS = _result() == 1
-         _if(VAR_IS_EXISTS, function(){
-         get_element_selector(_SELECTOR, false).nowait().style("display")!
-         STYLE_DISPLAY = _result()
-         get_element_selector(_SELECTOR, false).nowait().style("visibility")!
-         STYLE2_DISPLAY = _result()
-         get_element_selector(_SELECTOR, false).nowait().script("self.getBoundingClientRect().height")!
-         STYLE_HEIGHT = _result()
-         get_element_selector(_SELECTOR, false).nowait().script("self.getBoundingClientRect().width")!
-         STYLE_WIDTH = _result()
-         VAR_IS_EXISTS = STYLE_DISPLAY != "none" && STYLE2_DISPLAY != "hidden" && STYLE_HEIGHT != "0"  && STYLE_WIDTH != "0"
-         })!
          section_end()!
 
          section_start("", 327212923)!
@@ -363,9 +347,9 @@
          _if(VAR_IS_EXISTS,function(){
          section_insert()
             section_start("", 446996752)!
-            /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjXFwzQSA1dyA+IGIiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjXFwzQSA1dyA+IGIiLCJjc3MyIjoiID5DU1M+IDpudGgtY2hpbGQoMSkgPiBkaXYgPiA6bnRoLWNoaWxkKDEpID4gYiIsImNzczMiOiIiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD48Yj7QktC+0YHRgdGC0LDQvdC+0LLQu9C10L3QuNC1INC/0LDRgNC+0LvRjyDQvdCwINCe0LTQvdC+0LrQu9Cw0YHRgdC90LjQuiIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCI6NXdcIikvYlsxXSIsImF0IjoiNTY1LCAzMDUiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+            /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjXFwzQSA1dyA+IGIiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjXFwzQSA1dyA+IGIiLCJjc3MyIjoiID5DU1M+IDpudGgtY2hpbGQoMSkgPiBkaXYgPiA6bnRoLWNoaWxkKDEpID4gYiIsImNzczMiOiIiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD4+0JLQvtGB0YHRgtCw0L3QvtCy0LvQtdC90LgiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiOjV3XCIpL2JbMV0iLCJhdCI6IjU2NSwgMzA1Iiwid2UiOnRydWUsImZhIjp0cnVlfX0=*/
             /*Browser*/
-            _SELECTOR = "\u003eMATCH\u003e\u003cb\u003eВосстановление пароля на Одноклассник";
+            _SELECTOR = "\u003eMATCH\u003e\u003eВосстановлени";
             wait_element_visible(_SELECTOR)!
             get_element_selector(_SELECTOR, false).random_point()!
             _if(_result().length > 0, function(){
@@ -1508,32 +1492,41 @@
       app.post.debugLog = true;
       section_end()!
 
-      section_start("", 713424395)!
-      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiBcImFsbFByb3h5L2dldFJhbmRQcm94eVwiLFxuICAgIHBhcmFtczogXG57XG5cbn1cbn0pISIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-      _call(app.post.run,
-      {
-      url: "allProxy/getRandProxy",
-      params:
-      {
-      }
-      })!
-      section_end()!
+      section_start("", 770077046)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e3dpdGhQcm94eX19IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+      RS("withProxy", false, false)!
+      RESOURCE_934419 = _result().get()
+      _if(RESOURCE_934419,function(){
+      section_insert()
+         section_start("", 771722440)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiBcImFsbFByb3h5L2dldFJhbmRQcm94eVwiLFxuICAgIHBhcmFtczogXG57XG5cbn1cbn0pISIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         _call(app.post.run,
+         {
+         url: "allProxy/getRandProxy",
+         params:
+         {
+         }
+         })!
+         section_end()!
 
-      section_start("", 713065543)!
-      /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAucG9zdC5yLnJlc3VsdCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJQcm94eVR5cGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHAiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eUxvZ2luIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eVBhc3N3b3JkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRVcmwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRUYWJOdW1iZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-      /*Browser*/
-      var hash = proxy_parse(app.post.r.result)
-      if("http" != "auto" ){
-      hash["IsHttp"] = "http" == "http"
-      }
-      var login = ""
-      var password = ""
-      if(login.length > 0 && password.length > 0 )
-      {
-      hash["name"] = login
-      hash["password"] = password
-      }
-      set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
+         section_start("", 457381154)!
+         /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAucG9zdC5yLnJlc3VsdCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJQcm94eVR5cGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHAiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eUxvZ2luIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQcm94eVBhc3N3b3JkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRVcmwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJUYXJnZXRUYWJOdW1iZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IioiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         /*Browser*/
+         var hash = proxy_parse(app.post.r.result)
+         if("http" != "auto" ){
+         hash["IsHttp"] = "http" == "http"
+         }
+         var login = ""
+         var password = ""
+         if(login.length > 0 && password.length > 0 )
+         {
+         hash["name"] = login
+         hash["password"] = password
+         }
+         set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
+         section_end()!
+
+      })!
       section_end()!
 
       section_start("", 112274039)!
@@ -1604,24 +1597,33 @@
    app.jlog(app.regData);
    section_end()!
 
-   section_start("", 794997335)!
-   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9rX3JlZyJ9XX0=*/
-   _call(ok_reg,null)!
-   section_end()!
+   section_start("", 462114368)!
+   /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e0lEINCz0YDRg9C/0L/Ri319ICE9IDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+   RS("ID группы", false, false)!
+   RESOURCE_952357 = _result().get()
+   _if(RESOURCE_952357 != 0,function(){
+   section_insert()
+      section_start("", 666087757)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9rX3JlZyJ9XX0=*/
+      _call(ok_reg,null)!
+      section_end()!
 
-   section_start("", 149159674)!
-   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9rX19fbG9nb3V0In1dfQ==*/
-   _call(ok___logout,null)!
-   section_end()!
+      section_start("", 416997109)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9rX19fbG9nb3V0In1dfQ==*/
+      _call(ok___logout,null)!
+      section_end()!
 
-   section_start("", 224287398)!
-   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9rX19fcmVzdG9yZVBhc3MifV19*/
-   _call(ok___restorePass,null)!
-   section_end()!
+      section_start("", 838928261)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9rX19fcmVzdG9yZVBhc3MifV19*/
+      _call(ok___restorePass,null)!
+      section_end()!
 
-   section_start("", 494969977)!
-   /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJpbml0In1dfQ==*/
-   _long_goto("init", -1, [])!
+      section_start("", 383251002)!
+      /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJpbml0In1dfQ==*/
+      _long_goto("init", -1, [])!
+      section_end()!
+
+   })!
    section_end()!
 
 })!]]></Script>
@@ -1706,6 +1708,22 @@ DebugScenario=false
                <Value>5</Value>
                <MinValue>1</MinValue>
                <MaxValue>100</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>withProxy</Name>
+               <Description ru="withProxy" en="withProxy"/>
+               <SectionName ru="" en=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>1</Value>
+               <MinValue>0</MinValue>
+               <MaxValue>1</MaxValue>
           </Model>
           <Defaults/>
      </ModelList>
