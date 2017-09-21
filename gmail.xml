@@ -566,6 +566,46 @@
       sleep(5000)!
       section_end()!
 
+      section_start("", 682540288)!
+      /*Dat:eyJzIjoiZXhpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiSVNfRVhJU1RTIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+ICNwb3BMYXllcl9tbyIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNwb3BMYXllcl9tbyIsImNzczIiOiIgPkNTUz4gYm9keSA+IDpudGgtY2hpbGQoMTMpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkiLCJjc3MzIjoiIiwiY3VycmVudCI6ImNzcyIsIm1hdGNoIjoiPk1BVENIPjxkaXYgaWQ9XCJwb3BMYXllcl9tb1wiIGNsYXNzPVwibW9kYWwtbmV3X2MiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwicG9wTGF5ZXJfbW9cIikiLCJhdCI6IjQxMCwgMTE4Iiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
+      /*Browser*/
+      ;_SELECTOR=" \u003eCSS\u003e #popLayer_mo";
+      get_element_selector(_SELECTOR, false).nowait().exist()!
+      VAR_IS_EXISTS = _result() == 1
+      _if(VAR_IS_EXISTS, function(){
+      get_element_selector(_SELECTOR, false).nowait().style("display")!
+      STYLE_DISPLAY = _result()
+      get_element_selector(_SELECTOR, false).nowait().style("visibility")!
+      STYLE2_DISPLAY = _result()
+      get_element_selector(_SELECTOR, false).nowait().script("self.getBoundingClientRect().height")!
+      STYLE_HEIGHT = _result()
+      get_element_selector(_SELECTOR, false).nowait().script("self.getBoundingClientRect().width")!
+      STYLE_WIDTH = _result()
+      VAR_IS_EXISTS = STYLE_DISPLAY != "none" && STYLE2_DISPLAY != "hidden" && STYLE_HEIGHT != "0"  && STYLE_WIDTH != "0"
+      })!
+      section_end()!
+
+      section_start("", 753549649)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIhW1tJU19FWElTVFNdXSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      _if(!VAR_IS_EXISTS,function(){
+      section_insert()
+         section_start("", 855157956)!
+         /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAueC1waF9fbGlua19sYXN0IiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gdHIgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgzKSIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC54LXBoX19saW5rX2xhc3QiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGEgaHJlZj1cIi9mZWVkXCIgY2xhc3M9XCJ4LXBoX19saW5rIHgtcGhfXyIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJtYWlsUnVUb29sYmFyXCIpL3RhYmxlW0BjbGFzcz1cIncteC1waFwiXS90Ym9keVsxXS90clsxXS90ZFtAY2xhc3M9XCJ3LXgtcGhfX2NvbCB3LXgtcGhfX2NvbF9yaWdodFwiXS9hW0BjbGFzcz1cIngtcGhfX2xpbmsgeC1waF9fbGlua19sYXN0XCJdIiwiYXQiOiI5NjEsIDExIiwid2UiOnRydWUsImZhIjp0cnVlfX0=*/
+         /*Browser*/
+         _SELECTOR = " \u003eCSS\u003e .x-ph__link_last";
+         wait_element_visible(_SELECTOR)!
+         get_element_selector(_SELECTOR, false).random_point()!
+         _if(_result().length > 0, function(){
+         move( {} )!
+         get_element_selector(_SELECTOR, false).clarify(X,Y)!
+         _call(_clarify, {} )!
+         mouse(X,Y)!
+         })!
+         section_end()!
+
+      })!
+      section_end()!
+
       section_start("", 442355984)!
       /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjaG9va19Gb3JtQnV0dG9uX2xvZ29mZlxcLmNvbmZpcm1fbm90X2RlY29yYXRlIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gI2hvb2tfRm9ybUJ1dHRvbl9sb2dvZmZcXC5jb25maXJtX25vdF9kZWNvcmF0ZSIsImNzczIiOiIgPkNTUz4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMikgPiBpbnB1dCIsImNzczMiOiIiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGlucHV0IGNsYXNzPVwiYnV0dG9uLXBybyBmb3JtLWFjdGlvbnNfeWUiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiaG9va19Gb3JtQnV0dG9uX2xvZ29mZi5jb25maXJtX25vdF9kZWNvcmF0ZVwiKSIsImF0IjoiNDQyLCAyNjMiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
       /*Browser*/
@@ -1639,15 +1679,15 @@
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>20.3.0</EngineVersion>
-     <SettingsWorker>EnableFlash=true
+     <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true
 IsSafe=false
 SkipFrames=1
-ToolboxHeight=183
-ScenarioWidth=430
+ToolboxHeight=272
+ScenarioWidth=445
 Zoom=100
-IsMaximized=false
+IsMaximized=true
 Restart=false
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
