@@ -35,10 +35,10 @@
          section_end()!
 
          section_start("", 556668949)!
-         /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAubGlua3MubGVuZ3RoID4gMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAubGlua3MubGVuZ3RoID4gMCAmJiBbW0NZQ0xFX0lOREVYXV0gPCAxIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
          _do(function(){
          VAR_CYCLE_INDEX = _iterator() - 1
-         BREAK_CONDITION = app.links.length > 0;
+         BREAK_CONDITION = app.links.length > 0 && VAR_CYCLE_INDEX < 1;
          if(!BREAK_CONDITION)_break();
          section_insert()
             section_start("", 413666680)!
@@ -1248,7 +1248,9 @@
    section_end()!
 
    section_start("", 744763775)!
-   /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwLmdldERhdGVGb3JtYXQgPSBmdW5jdGlvbiAoZGF0ZSlcbntcbiAgICB2YXIgeWVhciAgPSBkYXRlLmdldEZ1bGxZZWFyKCk7XG5cbiAgICB2YXIgbW9udGggPSBkYXRlLmdldE1vbnRoKCkgKyAxO1xuXG4gICAgdmFyIGRheSAgID0gZGF0ZS5nZXREYXRlKCk7XG5cbiAgICB2YXIgaG91cnMgPSBkYXRlLmdldEhvdXJzKCk7XG5cbiAgICByZXR1cm4gZGF5ICsgJy4nICsgbW9udGggKyAnLicgKyB5ZWFyO1xufTtcblxuYXBwLmdldE5lYXJEYXRlRm9yUG9zdCA9IGZ1bmN0aW9uIChkYXRlKVxue1xuICAgIHZhciBvZmZlclRpbWUgPVxuICAgIHtcbiAgICAgICAgNzogIHRydWUsXG4gICAgICAgIDEyOiB0cnVlLFxuICAgICAgICAyMDogdHJ1ZSxcblx0XHRcblx0XHQwOiB0cnVlLFxuXHRcdDE6IHRydWUsXG5cdFx0MjogdHJ1ZSxcblx0XHQzOiB0cnVlLFxuXHRcdDQ6IHRydWUsXG5cdFx0NTogdHJ1ZSxcbiAgICAgICAgICAgICAgICA2OiB0cnVlLFxuXG5cdFx0XG5cdFx0ODogdHJ1ZSxcblx0XHQxMzogdHJ1ZSxcblx0XHQyMTogdHJ1ZVxuIFxuICAgIH07XG5cbiAgICBhcHAudG9vbHMuYWRkRGF0ZUhvdXJzKGRhdGUsIGFwcC5wb3N0RXZlcnlIb3Vycyk7XG5cbiAgICB2YXIgaG91cnMgPSBkYXRlLmdldEhvdXJzKCk7XG5cbiAgICBpZiAodHlwZW9mKG9mZmVyVGltZVtob3Vyc10pICA9PSAnYm9vbGVhbicpXG4gICAge1xuICAgICAgICB3aGlsZSAodHlwZW9mKG9mZmVyVGltZVtob3Vyc10pICA9PSAnYm9vbGVhbicpXG4gICAgICAgIHtcbiAgICAgICAgICAgIGFwcC50b29scy5hZGREYXRlSG91cnMoZGF0ZSwgYXBwLnBvc3RFdmVyeUhvdXJzKTtcblxuICAgICAgICAgICAgaG91cnMgPSBkYXRlLmdldEhvdXJzKCk7XG4gICAgICAgIH1cbiAgICB9XG59OyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5nZXREYXRlRm9ybWF0ID0gZnVuY3Rpb24gKGRhdGUpXG57XG4gICAgdmFyIHllYXIgID0gZGF0ZS5nZXRGdWxsWWVhcigpO1xuXG4gICAgdmFyIG1vbnRoID0gZGF0ZS5nZXRNb250aCgpICsgMTtcblxuICAgIHZhciBkYXkgICA9IGRhdGUuZ2V0RGF0ZSgpO1xuXG4gICAgdmFyIGhvdXJzID0gZGF0ZS5nZXRIb3VycygpO1xuXG4gICAgcmV0dXJuIGRheSArICcuJyArIG1vbnRoICsgJy4nICsgeWVhcjtcbn07XG5cbmFwcC5nZXROZWFyRGF0ZUZvclBvc3QgPSBmdW5jdGlvbiAoZGF0ZSlcbntcblx0XG5cdGlmICh7e25ld319ID49IDEpXG5cdHtcblx0XHR2YXIgb2ZmZXJUaW1lID1cblx0XHR7XG5cdFx0XHRcblx0IFxuXHRcdH07XHRcdFxuXHR9XG5cdGVsc2Vcblx0e1xuXHRcdHZhciBvZmZlclRpbWUgPVxuXHRcdHtcblx0XHRcdDc6ICB0cnVlLFxuXHRcdFx0MTI6IHRydWUsXG5cdFx0XHQyMDogdHJ1ZSxcblx0XHRcdFxuXHRcdFx0MDogdHJ1ZSxcblx0XHRcdDE6IHRydWUsXG5cdFx0XHQyOiB0cnVlLFxuXHRcdFx0MzogdHJ1ZSxcblx0XHRcdDQ6IHRydWUsXG5cdFx0XHQ1OiB0cnVlLFxuXHRcdFx0XHRcdDY6IHRydWUsXG5cblx0XHRcdFxuXHRcdFx0ODogdHJ1ZSxcblx0XHRcdDEzOiB0cnVlLFxuXHRcdFx0MjE6IHRydWVcblx0IFxuXHRcdH07XG5cblx0fVxuXHRcblxuICAgIGFwcC50b29scy5hZGREYXRlSG91cnMoZGF0ZSwgYXBwLnBvc3RFdmVyeUhvdXJzKTtcblxuICAgIHZhciBob3VycyA9IGRhdGUuZ2V0SG91cnMoKTtcblxuICAgIGlmICh0eXBlb2Yob2ZmZXJUaW1lW2hvdXJzXSkgID09ICdib29sZWFuJylcbiAgICB7XG4gICAgICAgIHdoaWxlICh0eXBlb2Yob2ZmZXJUaW1lW2hvdXJzXSkgID09ICdib29sZWFuJylcbiAgICAgICAge1xuICAgICAgICAgICAgYXBwLnRvb2xzLmFkZERhdGVIb3VycyhkYXRlLCBhcHAucG9zdEV2ZXJ5SG91cnMpO1xuXG4gICAgICAgICAgICBob3VycyA9IGRhdGUuZ2V0SG91cnMoKTtcbiAgICAgICAgfVxuICAgIH1cbn07IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+   RS("new", false, false)!
+   RESOURCE_668682 = _result().get()
    app.getDateFormat = function (date)
    {
    var year  = date.getFullYear();
@@ -1258,6 +1260,14 @@
    return day + '.' + month + '.' + year;
    };
    app.getNearDateForPost = function (date)
+   {
+   if (RESOURCE_668682 >= 1)
+   {
+   var offerTime =
+   {
+   };
+   }
+   else
    {
    var offerTime =
    {
@@ -1275,6 +1285,7 @@
    13: true,
    21: true
    };
+   }
    app.tools.addDateHours(date, app.postEveryHours);
    var hours = date.getHours();
    if (typeof(offerTime[hours])  == 'boolean')
@@ -1381,14 +1392,14 @@
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>20.3.0</EngineVersion>
      <SettingsWorker>EnableFlash=false
-ProxiesReconnect=false
+ProxiesReconnect=true
 ForceUtf8=true
-IsSafe=true
+IsSafe=false
 SkipFrames=1
-ToolboxHeight=300
-ScenarioWidth=500
+ToolboxHeight=272
+ScenarioWidth=445
 Zoom=100
-IsMaximized=false
+IsMaximized=true
 Restart=false
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
@@ -1396,19 +1407,15 @@ DebugScenario=false
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing</ChromeCommandLine>
-     <ModulesMetaJson>{
-    &quot;TRAVIAN&quot;: false
-}
-</ModulesMetaJson>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -1421,8 +1428,8 @@ DebugScenario=false
      <ModelList>
           <Model>
                <Name>posting_count</Name>
-               <Description en="posting_count" ru="Сколько постов сделать?"/>
-               <SectionName en="" ru=""/>
+               <Description ru="Сколько постов сделать?" en="posting_count"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1437,8 +1444,8 @@ DebugScenario=false
           <Defaults/>
           <Model>
                <Name>everyHours</Name>
-               <Description en="everyHours" ru="everyHours"/>
-               <SectionName en="" ru=""/>
+               <Description ru="everyHours" en="everyHours"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1447,8 +1454,24 @@ DebugScenario=false
                <Enabled>1</Enabled>
                <AllowedTypes>FixedInteger</AllowedTypes>
                <Value>1</Value>
-               <MinValue>1</MinValue>
+               <MinValue>0</MinValue>
                <MaxValue>100</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>new</Name>
+               <Description ru="new" en="new"/>
+               <SectionName ru="" en=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>0</Value>
+               <MinValue>0</MinValue>
+               <MaxValue>1</MaxValue>
           </Model>
           <Defaults/>
      </ModelList>
