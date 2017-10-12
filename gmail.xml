@@ -331,6 +331,34 @@
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0lTX0VYSVNUU11dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
          _if(VAR_IS_EXISTS,function(){
          section_insert()
+            section_start("", 502987831)!
+            /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+            _call(function()
+            {
+            _on_fail(function(){
+            VAR_LAST_ERROR = _result()
+            VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+            VAR_WAS_ERROR = false
+            _break(1,true)
+            })
+            CYCLES.Current().RemoveLabel("function")
+            section_insert()
+               section_start("", 797197599)!
+               /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDI5KSA+IGlmcmFtZSA+RlJBTUU+ID5DU1M+IDpudGgtY2hpbGQoOCkiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjXFwzQSA0blxcLmkgPkZSQU1FPiA+Q1NTPiAjY2xvc2UtYnV0dG9uIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDI5KSA+IGlmcmFtZSA+RlJBTUU+ID5DU1M+IDpudGgtY2hpbGQoOCkiLCJjc3MzIjoiIiwiY3VycmVudCI6ImNzcyIsIm1hdGNoIjoiPk1BVENIPjxpZnJhbWUgaWQ9XCI6NG4uaVwiIHNyYz1cImh0dHBzOi8vd3d3LmdzdGE+RlJBTUU+Pk1BVENIPjxidXR0b24gY2xhc3M9XCJnb29nLWJ1dHRvblwiIGlkPVwiY2xvc2UtYnUiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiOjRuLmlcIikgPkZSQU1FPiA+WFBBVEg+IGlkKFwiY2xvc2UtYnV0dG9uXCIpIiwiYXQiOiI2ODcsIDkiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+               /*Browser*/
+               _SELECTOR = " \u003eCSS\u003e :nth-child(29) \u003e iframe \u003eFRAME\u003e \u003eCSS\u003e :nth-child(8)";
+               wait_element_visible(_SELECTOR)!
+               get_element_selector(_SELECTOR, false).random_point()!
+               _if(_result().length > 0, function(){
+               X = parseInt(_result().split(",")[0])
+               Y = parseInt(_result().split(",")[1])
+               mouse(X,Y)!
+               })!
+               section_end()!
+
+            },null)!
+            section_end()!
+
             section_start("", 971909511)!
             /*Dat:eyJzIjoibW92ZWFuZGNsaWNrIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijg0NiIsImNsYXNzIjoiaW50In0seyJpZCI6IlkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMSIsImNsYXNzIjoiaW50In0seyJpZCI6IlNlbGVjdCIsInR5cGUiOiJzZWxlY3QiLCJkYXRhIjoibGVmdCJ9LHsiaWQiOiJTcGVlZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkdyYXZpdHkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjYiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiRGV2aWF0aW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIyLjUiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
             /*Browser*/
@@ -1444,11 +1472,6 @@
       /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6OTg2NjI0MjE2LCJtYXN0ZXIiOjM2NzEwOTMxNiwiaWZfdmFyIjoiSUZfRUxTRV9FWFBSRVNTSU9OXzExMjU0OCIsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZkV4cHJlc3Npb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7YXBpfX0gPT0gMSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
       _if(!IF_ELSE_EXPRESSION_112548,function(){
       section_insert()
-         section_start("", 112571144)!
-         /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fcGxheV9zb3VuZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W119*/
-         native("usernotification", "playsound", "")
-         section_end()!
-
          section_start("", 744467624)!
          /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fdXNlcl9pbnB1dCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoicGhvbmUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJWYXJpYWJsZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiVVNFUl9JTlBVVCJ9XX0=*/
          solve_base64("manual","BAS_USER_ASK" + "phone")!
@@ -1456,13 +1479,8 @@
          section_end()!
 
          section_start("", 373877605)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMubnVtYmVyID0gJys3JyArIFtbVVNFUl9JTlBVVF1dOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-         app.sms.number = '+7' + VAR_USER_INPUT;
-         section_end()!
-
-         section_start("", 451427209)!
-         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMubnVtYmVyIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-         log("app.sms.number")
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMubnVtYmVyID0gW1tVU0VSX0lOUFVUXV07IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+         app.sms.number = VAR_USER_INPUT;
          section_end()!
 
       })!
@@ -1797,7 +1815,7 @@ SkipFrames=1
 ToolboxHeight=272
 ScenarioWidth=445
 Zoom=100
-IsMaximized=true
+IsMaximized=false
 Restart=false
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
@@ -1806,15 +1824,15 @@ DebugScenario=false
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
 --enable-widevine-cdm</ChromeCommandLine>
-     <OutputTitle1 ru="First Results" en="First Results"/>
-     <OutputTitle2 ru="Second Results" en="Second Results"/>
-     <OutputTitle3 ru="Third Results" en="Third Results"/>
-     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
-     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
-     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
-     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
-     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
-     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputTitle1 en="First Results" ru="First Results"/>
+     <OutputTitle2 en="Second Results" ru="Second Results"/>
+     <OutputTitle3 en="Third Results" ru="Third Results"/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -1827,8 +1845,8 @@ DebugScenario=false
      <ModelList>
           <Model>
                <Name>ID группы</Name>
-               <Description ru="ID группы" en="ID группы"/>
-               <SectionName ru="" en=""/>
+               <Description en="ID группы" ru="ID группы"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1843,8 +1861,8 @@ DebugScenario=false
           <Defaults/>
           <Model>
                <Name>need</Name>
-               <Description ru="need" en="need"/>
-               <SectionName ru="" en=""/>
+               <Description en="need" ru="need"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1859,8 +1877,8 @@ DebugScenario=false
           <Defaults/>
           <Model>
                <Name>withProxy</Name>
-               <Description ru="withProxy" en="withProxy"/>
-               <SectionName ru="" en=""/>
+               <Description en="withProxy" ru="withProxy"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1875,8 +1893,8 @@ DebugScenario=false
           <Defaults/>
           <Model>
                <Name>api</Name>
-               <Description ru="api" en="api"/>
-               <SectionName ru="" en=""/>
+               <Description en="api" ru="api"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
