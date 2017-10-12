@@ -510,12 +510,12 @@
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>20.4.0</EngineVersion>
      <SettingsWorker>EnableFlash=false
-ProxiesReconnect=false
+ProxiesReconnect=true
 ForceUtf8=true
-IsSafe=true
+IsSafe=false
 SkipFrames=1
-ToolboxHeight=300
-ScenarioWidth=500
+ToolboxHeight=272
+ScenarioWidth=445
 Zoom=100
 IsMaximized=true
 Restart=false
@@ -526,15 +526,15 @@ DebugScenario=false
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
 --enable-widevine-cdm</ChromeCommandLine>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -547,8 +547,8 @@ DebugScenario=false
      <ModelList>
           <Model>
                <Name>group</Name>
-               <Description en="group" ru="group"/>
-               <SectionName en="" ru=""/>
+               <Description ru="group" en="group"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -563,8 +563,8 @@ DebugScenario=false
           <Defaults/>
           <Model>
                <Name>count</Name>
-               <Description en="count" ru="count"/>
-               <SectionName en="" ru=""/>
+               <Description ru="count" en="count"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>

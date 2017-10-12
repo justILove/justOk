@@ -148,12 +148,6 @@
       })
       CYCLES.Current().RemoveLabel("function")
       section_insert()
-         section_start("", 123097230)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMgPSB7fTtcbmFwcC5zbXMuZGVidWcgPSB0cnVlOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-         app.sms = {};
-         app.sms.debug = true;
-         section_end()!
-
          section_start("", 640738458)!
          /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiBcInNtcy9vc19nZXROdW1cIixcbiAgICBwYXJhbXM6IFxue1xuICBcbn1cbn0pISIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
          _call(app.post.run,
@@ -1067,9 +1061,38 @@
             })!
             section_end()!
 
-            section_start("", 267652919)!
-            /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNNU19fX2dldFNtcyJ9XX0=*/
-            _call(SMS___getSms,null)!
+            section_start("", 475463432)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjczMTA2NzI0OCwibWFzdGVyIjozNDY4OTkzMjQsImlmX3ZhciI6IklGX0VMU0VfRVhQUkVTU0lPTl8zMTk2NzEiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e2FwaX19ID09IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+            RS("api", false, false)!
+            RESOURCE_314946 = _result().get()
+            IF_ELSE_EXPRESSION_319671 = RESOURCE_314946 == 1;
+            _if(IF_ELSE_EXPRESSION_319671,function(){
+            section_insert()
+               section_start("", 784377048)!
+               /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNNU19fX2dldFNtcyJ9XX0=*/
+               _call(SMS___getSms,null)!
+               section_end()!
+
+            })!
+            section_end()!
+
+            section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 731067248)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6NzMxMDY3MjQ4LCJtYXN0ZXIiOjQ3NTQ2MzQzMiwiaWZfdmFyIjoiSUZfRUxTRV9FWFBSRVNTSU9OXzMxOTY3MSIsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZkV4cHJlc3Npb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7YXBpfX0gPT0gMSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+            _if(!IF_ELSE_EXPRESSION_319671,function(){
+            section_insert()
+               section_start("", 263040563)!
+               /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fdXNlcl9pbnB1dCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoic21zIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVmFyaWFibGUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlVTRVJfSU5QVVQifV19*/
+               solve_base64("manual","BAS_USER_ASK" + "sms")!
+               VAR_USER_INPUT = _result()
+               section_end()!
+
+               section_start("", 184839752)!
+               /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMubXNnID0gW1tVU0VSX0lOUFVUXV07IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+               app.sms.msg = VAR_USER_INPUT;
+               section_end()!
+
+            })!
+            delete IF_ELSE_EXPRESSION_319671;
             section_end()!
 
             section_start("", 196928191)!
@@ -1102,9 +1125,18 @@
             wait_async_load()!
             section_end()!
 
-            section_start("", 185081953)!
-            /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNNU19fX29rIn1dfQ==*/
-            _call(SMS___ok,null)!
+            section_start("", 190070322)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e2FwaX19ID09IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+            RS("api", false, false)!
+            RESOURCE_182687 = _result().get()
+            _if(RESOURCE_182687 == 1,function(){
+            section_insert()
+               section_start("", 968733084)!
+               /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNNU19fX29rIn1dfQ==*/
+               _call(SMS___ok,null)!
+               section_end()!
+
+            })!
             section_end()!
 
             section_start("", 480546254)!
@@ -1393,9 +1425,48 @@
       })!
       section_end()!
 
-      section_start("", 927503455)!
-      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNNU19fX2dldE51bSJ9XX0=*/
-      _call(SMS___getNum,null)!
+      section_start("", 367109316)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjk4NjYyNDIxNiwibWFzdGVyIjo5MzE0MDMxNjAsImlmX3ZhciI6IklGX0VMU0VfRVhQUkVTU0lPTl8xMTI1NDgiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e2FwaX19ID09IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+      RS("api", false, false)!
+      RESOURCE_309552 = _result().get()
+      IF_ELSE_EXPRESSION_112548 = RESOURCE_309552 == 1;
+      _if(IF_ELSE_EXPRESSION_112548,function(){
+      section_insert()
+         section_start("", 670816066)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlNNU19fX2dldE51bSJ9XX0=*/
+         _call(SMS___getNum,null)!
+         section_end()!
+
+      })!
+      section_end()!
+
+      section_start("\u007b\u0022n\u0022:\u0022Else\u0022\u007d", 986624216)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6OTg2NjI0MjE2LCJtYXN0ZXIiOjM2NzEwOTMxNiwiaWZfdmFyIjoiSUZfRUxTRV9FWFBSRVNTSU9OXzExMjU0OCIsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJJZkV4cHJlc3Npb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Int7YXBpfX0gPT0gMSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
+      _if(!IF_ELSE_EXPRESSION_112548,function(){
+      section_insert()
+         section_start("", 112571144)!
+         /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fcGxheV9zb3VuZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W119*/
+         native("usernotification", "playsound", "")
+         section_end()!
+
+         section_start("", 744467624)!
+         /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fdXNlcl9pbnB1dCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoicGhvbmUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJWYXJpYWJsZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiVVNFUl9JTlBVVCJ9XX0=*/
+         solve_base64("manual","BAS_USER_ASK" + "phone")!
+         VAR_USER_INPUT = _result()
+         section_end()!
+
+         section_start("", 373877605)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMubnVtYmVyID0gJys3JyArIFtbVVNFUl9JTlBVVF1dOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         app.sms.number = '+7' + VAR_USER_INPUT;
+         section_end()!
+
+         section_start("", 451427209)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMubnVtYmVyIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+         log("app.sms.number")
+         section_end()!
+
+      })!
+      delete IF_ELSE_EXPRESSION_112548;
       section_end()!
 
       section_start("", 164755205)!
@@ -1564,6 +1635,13 @@
       app.post.debugLog = true;
       section_end()!
 
+      section_start("", 109524198)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5zbXMgPSB7fTtcbmFwcC5zbXMuZGVidWcgPSB0cnVlO1xuXG5cbiAgYXBwLnNtc0Fuc3dlciA9IHt9OyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      app.sms = {};
+      app.sms.debug = true;
+      app.smsAnswer = {};
+      section_end()!
+
       section_start("", 770077046)!
       /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e3dpdGhQcm94eX19IiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
       RS("withProxy", false, false)!
@@ -1712,12 +1790,12 @@
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>20.4.0</EngineVersion>
      <SettingsWorker>EnableFlash=false
-ProxiesReconnect=false
+ProxiesReconnect=true
 ForceUtf8=true
-IsSafe=true
+IsSafe=false
 SkipFrames=1
-ToolboxHeight=300
-ScenarioWidth=500
+ToolboxHeight=272
+ScenarioWidth=445
 Zoom=100
 IsMaximized=true
 Restart=false
@@ -1728,15 +1806,15 @@ DebugScenario=false
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
 --enable-widevine-cdm</ChromeCommandLine>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -1749,8 +1827,8 @@ DebugScenario=false
      <ModelList>
           <Model>
                <Name>ID группы</Name>
-               <Description en="ID группы" ru="ID группы"/>
-               <SectionName en="" ru=""/>
+               <Description ru="ID группы" en="ID группы"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1765,8 +1843,8 @@ DebugScenario=false
           <Defaults/>
           <Model>
                <Name>need</Name>
-               <Description en="need" ru="need"/>
-               <SectionName en="" ru=""/>
+               <Description ru="need" en="need"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1781,8 +1859,8 @@ DebugScenario=false
           <Defaults/>
           <Model>
                <Name>withProxy</Name>
-               <Description en="withProxy" ru="withProxy"/>
-               <SectionName en="" ru=""/>
+               <Description ru="withProxy" en="withProxy"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -1791,6 +1869,22 @@ DebugScenario=false
                <Enabled>1</Enabled>
                <AllowedTypes>FixedInteger</AllowedTypes>
                <Value>1</Value>
+               <MinValue>0</MinValue>
+               <MaxValue>1</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>api</Name>
+               <Description ru="api" en="api"/>
+               <SectionName ru="" en=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>0</Value>
                <MinValue>0</MinValue>
                <MaxValue>1</MaxValue>
           </Model>
