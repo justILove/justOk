@@ -11,11 +11,18 @@ WHERE
 AND bots.type != "lost_access"
 
 
-SELECT
-	(
-		SELECT count(id) FROM group_ta_gone as gtg WHERE gtg.bot = bots.id
-	) as invited,
-	bots.id
-FROM bots
+SELECT 
+	b.id,
+	(SELECT count(id) FROM group_ta_gone as gtg WHERE gtg.bot = b.id) as invited,
+	b.friends,
+	fp.friends_invited,
+	TIMESTAMPDIFF(DAY, b.created_at, UTC_TIMESTAMP()) as live_days,
+	b.type,
+	fp.music_count
+	
+FROM bots as b
+LEFT JOIN fill_profile as fp
+	ON fp.bot = b.id
 WHERE
-	type = "lost_access"
+	b.type = "lost_access"
+ORDER BY invited DESC
