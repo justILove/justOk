@@ -642,7 +642,7 @@
      <HideBrowsers>false</HideBrowsers>
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>20.3.0</EngineVersion>
+     <EngineVersion>20.4.0</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true
@@ -658,11 +658,8 @@ DebugToolbox=false
 DebugScenario=false
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
---disable-gpu-compositing</ChromeCommandLine>
-     <ModulesMetaJson>{
-    &quot;TRAVIAN&quot;: false
-}
-</ModulesMetaJson>
+--disable-gpu-compositing
+--enable-widevine-cdm</ChromeCommandLine>
      <OutputTitle1 ru="First Results" en="First Results"/>
      <OutputTitle2 ru="Second Results" en="Second Results"/>
      <OutputTitle3 ru="Third Results" en="Third Results"/>
