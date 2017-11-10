@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrowserAutomationStudioProject>
+     <Script><![CDATA[section(1 /*1*/,1 /*1*/,1 /*1*/,0,function(){
+   section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
+
+   section_end()!
+
+   _call(_on_start, null)!
+
+   section_start("", 296680829)!
+   /*Dat:eyJzIjoiT0tCb3RJbml0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+   var app = new OkBot_App();
+   app.post  = new OkBot_myPost;
+   app.task  = OkBot_Task;
+   app.tools = OkBot_getTools();
+   section_end()!
+
+   section_start("", 469952047)!
+   /*Dat:eyJzIjoiRmluZ2VycHJpbnRTd2l0Y2hlcl9HZXQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVGFncyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiTWljcm9zb2Z0IFdpbmRvd3MsQ2hyb21lIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiS2V5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJGSU5HRVJQUklOVCJ9XX0=*/
+   var q = ("Microsoft Windows,Chrome").split(",").map(function(el){return el.trim()})
+   if(q.length == 0 || q.length == 1 && q[0] == "*")
+   {
+   q = (("").length > 0) ? ("?key=" + encodeURIComponent("")) : ""
+   }else
+   {
+   q = "?tags=" + encodeURIComponent(q.join(",")) + ((("").length > 0) ? ("&key=" + encodeURIComponent("")) : "")
+   }
+   var api_url = "https://fingerprints.bablosoft.com/prepare" + q
+   _switch_http_client_internal()
+   http_client_set_fail_on_error(false)
+   _do(function(){
+   if(_iterator()>15)
+   fail("Query limit reached")
+   http_client_get2(api_url,{method:("GET")})!
+   VAR_FINGERPRINT = http_client_content()
+   try
+   {
+   var json = JSON.parse(VAR_FINGERPRINT)
+   if(!json["trylater"])
+   _break()
+   }catch(e){}
+   sleep(20000)!
+   })!
+   http_client_set_fail_on_error(true)
+   _switch_http_client_main()
+   section_end()!
+
+   section_start("", 436136208)!
+   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRklOR0VSUFJJTlRdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+   log(VAR_FINGERPRINT)
+   section_end()!
+
+   section_start("", 446497592)!
+   /*Dat:eyJzIjoiaHR0cGNsaWVudGdldCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly9maW5nZXJwcmludHMuYmFibG9zb2Z0LmNvbS9wcmVwYXJlP3RhZ3M9Q2hyb21lLE1pY3Jvc29mdCUyMFdpbmRvd3MiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJNZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkdFVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+   _switch_http_client_main()
+   http_client_get2("https://fingerprints.bablosoft.com/prepare?tags=Chrome,Microsoft%20Windows",{method:("GET")})!
+   section_end()!
+
+   section_start("", 307836523)!
+   /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9XX0=*/
+   _switch_http_client_main()
+   VAR_SAVED_CONTENT = http_client_content()
+   section_end()!
+
+   section_start("", 766995191)!
+   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbU0FWRURfQ09OVEVOVF1dIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   log(VAR_SAVED_CONTENT)
+   section_end()!
+
+   section_start("", 350312369)!
+   /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiX2NhbGwoYXBwLnBvc3QucnVuLCBcbntcbiAgICB1cmw6IFwiYm90cy9nZXRCb3R2MlwiLFxuICAgIHBhcmFtczoge31cbn0pISIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+   _call(app.post.run,
+   {
+   url: "bots/getBotv2",
+   params: {}
+   })!
+   section_end()!
+
+})!]]></Script>
+     <EmbeddedData><![CDATA[[]]]></EmbeddedData>
+     <DatabaseId>Database.11337</DatabaseId>
+     <Schema></Schema>
+     <ConnectionIsRemote>false</ConnectionIsRemote>
+     <ConnectionServer></ConnectionServer>
+     <ConnectionPort></ConnectionPort>
+     <ConnectionLogin></ConnectionLogin>
+     <ConnectionPassword></ConnectionPassword>
+     <ScriptName></ScriptName>
+     <HideBrowsers>false</HideBrowsers>
+     <ScriptVersion></ScriptVersion>
+     <AvailableLanguages>en,ru</AvailableLanguages>
+     <EngineVersion>20.5.1</EngineVersion>
+     <SettingsWorker>EnableFlash=false
+ProxiesReconnect=true
+ForceUtf8=true
+IsSafe=false
+SkipFrames=1
+ToolboxHeight=206
+ScenarioWidth=445
+Zoom=100
+IsMaximized=false
+Restart=false
+UseHumanLikeMouseMoves=true
+DebugToolbox=false
+DebugScenario=false
+Languages=&quot;Node,8.6.0&quot;
+Modules=&quot;&quot;
+</SettingsWorker>
+     <ChromeCommandLine>--disable-gpu
+--disable-gpu-compositing
+--enable-widevine-cdm</ChromeCommandLine>
+     <OutputTitle1 en="First Results" ru="First Results"/>
+     <OutputTitle2 en="Second Results" ru="Second Results"/>
+     <OutputTitle3 en="Third Results" ru="Third Results"/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputVisible1>1</OutputVisible1>
+     <OutputVisible2>1</OutputVisible2>
+     <OutputVisible3>1</OutputVisible3>
+     <OutputVisible4>0</OutputVisible4>
+     <OutputVisible5>0</OutputVisible5>
+     <OutputVisible6>0</OutputVisible6>
+     <OutputVisible7>0</OutputVisible7>
+     <OutputVisible8>0</OutputVisible8>
+     <OutputVisible9>0</OutputVisible9>
+     <ModelList/>
+</BrowserAutomationStudioProject>

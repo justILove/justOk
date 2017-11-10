@@ -1182,15 +1182,16 @@
          page().type(app.bot.pass,0)!
          section_end()!
 
-         section_start("", 489285081)!
-         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XSwicCI6eyJjc3MiOiIgPkNTUz4gLmFub255bV9sb2dpbl9jbnQgPiAuZm9ybSA+IC5mb3JtLWFjdGlvbnMgPiAuYnV0dG9uLXBybyIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IDpudGgtY2hpbGQoMTQpID4gaW5wdXQiLCJjc3MyIjoiIiwiY3NzMyI6IiA+Q1NTPiAuYW5vbnltX2xvZ2luX2NudCA+IC5mb3JtID4gLmZvcm0tYWN0aW9ucyA+IC5idXR0b24tcHJvIiwiY3VycmVudCI6ImNzcyIsIm1hdGNoIjoiPk1BVENIPjxpbnB1dCB2YWx1ZT1cItCS0L7QudGC0LhcIiBkYXRhLWw9XCJ0LGxvZ2luQnV0dCIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJhbm9ueW1QYWdlQ29udGVudFwiKS9kaXZbQGNsYXNzPVwiYW5vbnltX2xvZ2luX3dcIl0vZGl2W0BjbGFzcz1cImFub255bV9sb2dpbiBoLW1vZFwiXS9kaXZbQGNsYXNzPVwiYW5vbnltX2xvZ2luX2NudCBqcy1sb2dpbi1zdGF0ZVwiXS9mb3JtW0BjbGFzcz1cImZvcm0ganMtbG9naW4tZm9ybVwiXS9kaXZbQGNsYXNzPVwiZm9ybS1hY3Rpb25zXCJdL2lucHV0W0BjbGFzcz1cImJ1dHRvbi1wcm8gZm9ybS1hY3Rpb25zX3llc1wiXSIsImF0IjoiODc3LCAzMTQiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+         section_start("", 283200544)!
+         /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDEpID4gLmJ1dHRvbi1wcm8iLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDE0KSA+IDpudGgtY2hpbGQoMSkgPiBpbnB1dCIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IDpudGgtY2hpbGQoMSkgPiAuYnV0dG9uLXBybyIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48aW5wdXQgY2xhc3M9XCJidXR0b24tcHJvIGZvcm0tYWN0aW9uc195ZSIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJhbm9ueW1QYWdlQ29udGVudFwiKS9kaXZbQGNsYXNzPVwiYW5vbnltX2xvZ2luX3dcIl0vZGl2W0BjbGFzcz1cImFub255bV9sb2dpbiBoLW1vZFwiXS9kaXZbQGNsYXNzPVwiYW5vbnltX2xvZ2luX2NudCBqcy1sb2dpbi1zdGF0ZVwiXS9mb3JtW0BjbGFzcz1cImZvcm0ganMtbG9naW4tZm9ybVwiXS9kaXZbQGNsYXNzPVwiZm9ybS1hY3Rpb25zXCJdL2RpdlsxXS9pbnB1dFtAY2xhc3M9XCJidXR0b24tcHJvIGZvcm0tYWN0aW9uc195ZXNcIl0iLCJhdCI6Ijg4NywgMzE0Iiwid2UiOnRydWUsImZhIjp0cnVlfX0=*/
          /*Browser*/
-         _SELECTOR = " \u003eCSS\u003e .anonym_login_cnt \u003e .form \u003e .form-actions \u003e .button-pro";
+         _SELECTOR = " \u003eCSS\u003e :nth-child(1) \u003e .button-pro";
          wait_element_visible(_SELECTOR)!
          get_element_selector(_SELECTOR, false).random_point()!
          _if(_result().length > 0, function(){
-         X = parseInt(_result().split(",")[0])
-         Y = parseInt(_result().split(",")[1])
+         move( {} )!
+         get_element_selector(_SELECTOR, false).clarify(X,Y)!
+         _call(_clarify, {} )!
          mouse(X,Y)!
          })!
          section_end()!
@@ -1446,6 +1447,7 @@
    section_end()!
 
 })!]]></Script>
+     <EmbeddedData><![CDATA[[]]]></EmbeddedData>
      <DatabaseId>Database.1836</DatabaseId>
      <Schema></Schema>
      <ConnectionIsRemote>false</ConnectionIsRemote>
@@ -1457,7 +1459,7 @@
      <HideBrowsers>false</HideBrowsers>
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>20.4.0</EngineVersion>
+     <EngineVersion>20.5.1</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true
@@ -1466,7 +1468,7 @@ SkipFrames=1
 ToolboxHeight=272
 ScenarioWidth=445
 Zoom=100
-IsMaximized=true
+IsMaximized=false
 Restart=false
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
