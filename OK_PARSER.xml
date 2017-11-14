@@ -631,6 +631,7 @@
    section_end()!
 
 })!]]></Script>
+     <EmbeddedData><![CDATA[[]]]></EmbeddedData>
      <DatabaseId>Database.9218</DatabaseId>
      <Schema></Schema>
      <ConnectionIsRemote>false</ConnectionIsRemote>
@@ -642,7 +643,7 @@
      <HideBrowsers>false</HideBrowsers>
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>20.4.0</EngineVersion>
+     <EngineVersion>20.5.1</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true

@@ -1473,6 +1473,8 @@ Restart=false
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
 DebugScenario=false
+Languages=&quot;&quot;
+Modules=&quot;&quot;
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
