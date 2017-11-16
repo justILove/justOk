@@ -13,7 +13,7 @@ AND bots.type != "lost_access"
 
 SELECT 
 	b.id,
-	(SELECT count(id) FROM group_ta_gone as gtg WHERE gtg.bot = b.id) as invited,
+	(SELECT count(id) FROM group_ta_gone as gtg WHERE gtg.bot = b.id and gtg.status = "invited") as invited,
 	b.friends,
 	fp.friends_invited,
 	TIMESTAMPDIFF(DAY, b.created_at, UTC_TIMESTAMP()) as live_days,
