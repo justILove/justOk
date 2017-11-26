@@ -797,9 +797,12 @@
          section_end()!
 
          section_start("", 418138086)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiXG5hcHAucG9zdGluZ0hvdXIgPSAnMCc7XG5cbnZhciBob3VycyA9IGFwcC5wb3N0aW5nRGF0ZS5nZXRIb3VycygpO1xuXG5pZiAoaG91cnMgPCAxMClcbntcbiAgICBhcHAucG9zdGluZ0hvdXIgPSAnMCcgKyBob3Vycztcbn1cbmVsc2VcbiAgICBhcHAucG9zdGluZ0hvdXIgPSBob3VyczsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-         app.postingHour = '0';
-         var hours = app.postingDate.getHours();
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5wb3N0aW5nSG91ciAgICA9ICcwJztcbmFwcC5wb3N0aW5nTWludXRlcyA9ICcwJztcblxudmFyIGhvdXJzICAgPSBhcHAucG9zdGluZ0RhdGUuZ2V0SG91cnMoKSxcblx0bWludXRlcyA9IGFwcC5wb3N0aW5nRGF0ZS5nZXRNaW51dGVzKCk7XG5cdFxuYXBwLnBvc3RpbmdNaW51dGVzID0gTWF0aC5jZWlsKG1pbnV0ZXMgLyA1KSAqIDU7XG5cbmlmIChob3VycyA8IDEwKVxue1xuICAgIGFwcC5wb3N0aW5nSG91ciA9ICcwJyArIGhvdXJzO1xufVxuZWxzZVxuICAgIGFwcC5wb3N0aW5nSG91ciA9IGhvdXJzO1xuXG4iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+         app.postingHour    = '0';
+         app.postingMinutes = '0';
+         var hours   = app.postingDate.getHours(),
+         minutes = app.postingDate.getMinutes();
+         app.postingMinutes = Math.ceil(minutes / 5) * 5;
          if (hours < 10)
          {
          app.postingHour = '0' + hours;
@@ -813,6 +816,11 @@
          log(app.postingHour)
          section_end()!
 
+         section_start("", 200125214)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5wb3N0aW5nTWludXRlcyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         log(app.postingMinutes)
+         section_end()!
+
          section_start("", 144352819)!
          /*Dat:eyJzIjoic2V0IiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5wb3N0aW5nSG91ciIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJjc3MiOiIgPkNTUz4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoNikgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgzKSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+ICNncGZfOTQyMTMyMTk5M1xcLnRpbWVyID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMykiLCJjc3MyIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDYpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMykiLCJjc3MzIjoiID5DU1M+ICNncGZfOTQyMTMyMTk5M1xcLnRpbWVyID4gLmZvcm1faV9fb2JqLWlubGluZSA+IC5wZm9ybV9kZWxheV9mb3JtX2hoIiwiY3VycmVudCI6ImNzcyIsIm1hdGNoIjoiPk1BVENIPjxzZWxlY3QgbmFtZT1cInN0LmxheWVyLmhvdXJzXCIgY2xhc3M9XCJpc2wiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiZ3BmXzk0MjEzMjE5OTMudGltZXJcIikvZGl2W0BjbGFzcz1cInBmb3JtX2RlbGF5X2Zvcm0gZm9ybV9pIGZvcm1faV9fbm8tbWIgZm9ybV9pX19vYmotaW5saW5lXCJdL3NlbGVjdFtAY2xhc3M9XCJpc2wgaXNsX18ybnVtIHBmb3JtX2RlbGF5X2Zvcm1faGhcIl0iLCJhdCI6IjU3MSwgNjk2In19*/
          /*Browser*/
@@ -822,11 +830,12 @@
          section_end()!
 
          section_start("", 196845272)!
-         /*Dat:eyJzIjoic2V0IiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjAwIiwiY2xhc3MiOiJzdHJpbmcifV0sInAiOnsiY3NzIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDYpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoNCkiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjZ3BmXzk0MjEzMjE5OTNcXC50aW1lciA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDQpIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCg2KSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDQpIiwiY3NzMyI6IiA+Q1NTPiAjZ3BmXzk0MjEzMjE5OTNcXC50aW1lciA+IC5mb3JtX2lfX29iai1pbmxpbmUgPiAucGZvcm1fZGVsYXlfZm9ybV9tbSIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48c2VsZWN0IG5hbWU9XCJzdC5sYXllci5taW5zXCIgY2xhc3M9XCJpc2wgIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcImdwZl85NDIxMzIxOTkzLnRpbWVyXCIpL2RpdltAY2xhc3M9XCJwZm9ybV9kZWxheV9mb3JtIGZvcm1faSBmb3JtX2lfX25vLW1iIGZvcm1faV9fb2JqLWlubGluZVwiXS9zZWxlY3RbQGNsYXNzPVwiaXNsIGlzbF9fMm51bSBwZm9ybV9kZWxheV9mb3JtX21tXCJdIiwiYXQiOiI2MzAsIDcwMiJ9fQ==*/
+         /*Dat:eyJzIjoic2V0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAucG9zdGluZ01pbnV0ZXMiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV0sInAiOnsiY3NzIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDYpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoNCkiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjZ3BmXzk0MjEzMjE5OTNcXC50aW1lciA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDQpIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCg2KSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDQpIiwiY3NzMyI6IiA+Q1NTPiAjZ3BmXzk0MjEzMjE5OTNcXC50aW1lciA+IC5mb3JtX2lfX29iai1pbmxpbmUgPiAucGZvcm1fZGVsYXlfZm9ybV9tbSIsImN1cnJlbnQiOiJjc3MiLCJtYXRjaCI6Ij5NQVRDSD48c2VsZWN0IG5hbWU9XCJzdC5sYXllci5taW5zXCIgY2xhc3M9XCJpc2wgIiwieHBhdGgiOiIgPlhQQVRIPiBpZChcImdwZl85NDIxMzIxOTkzLnRpbWVyXCIpL2RpdltAY2xhc3M9XCJwZm9ybV9kZWxheV9mb3JtIGZvcm1faSBmb3JtX2lfX25vLW1iIGZvcm1faV9fb2JqLWlubGluZVwiXS9zZWxlY3RbQGNsYXNzPVwiaXNsIGlzbF9fMm51bSBwZm9ybV9kZWxheV9mb3JtX21tXCJdIiwiYXQiOiI2MzAsIDcwMiIsIndlIjp0cnVlLCJmYSI6dHJ1ZX19*/
          /*Browser*/
-         wait_element_visible(" \u003eCSS\u003e :nth-child(2) \u003e :nth-child(6) \u003e :nth-child(1) \u003e :nth-child(4)")!
-         get_element_selector(" \u003eCSS\u003e :nth-child(2) \u003e :nth-child(6) \u003e :nth-child(1) \u003e :nth-child(4)", false).move()!
-         get_element_selector(" \u003eCSS\u003e :nth-child(2) \u003e :nth-child(6) \u003e :nth-child(1) \u003e :nth-child(4)", false).set("00")!
+         _SELECTOR = " \u003eCSS\u003e :nth-child(2) \u003e :nth-child(6) \u003e :nth-child(1) \u003e :nth-child(4)";
+         wait_element_visible(_SELECTOR)!
+         get_element_selector(_SELECTOR, false).move()!
+         get_element_selector(_SELECTOR, false).set(app.postingMinutes)!
          section_end()!
 
          section_start("", 292932609)!
@@ -1248,10 +1257,10 @@
    section_end()!
 
    section_start("", 137812564)!
-   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5wb3N0RXZlcnlIb3VycyA9IHt7ZXZlcnlIb3Vyc3xvbmx5ZmFpbH19OyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-   RS("everyHours", false, true)!
-   RESOURCE_162191 = _result().get()
-   app.postEveryHours = RESOURCE_162191;
+   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5wb3N0RXZlcnkgPSB7e3Bvc3RFdmVyeX19OyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+   RS("postEvery", false, false)!
+   RESOURCE_374298 = _result().get()
+   app.postEvery = RESOURCE_374298;
    section_end()!
 
    section_start("", 748783007)!
@@ -1316,9 +1325,9 @@
    section_end()!
 
    section_start("", 744763775)!
-   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5nZXREYXRlRm9ybWF0ID0gZnVuY3Rpb24gKGRhdGUpXG57XG4gICAgdmFyIHllYXIgID0gZGF0ZS5nZXRGdWxsWWVhcigpO1xuXG4gICAgdmFyIG1vbnRoID0gZGF0ZS5nZXRNb250aCgpICsgMTtcblxuICAgIHZhciBkYXkgICA9IGRhdGUuZ2V0RGF0ZSgpO1xuXG4gICAgdmFyIGhvdXJzID0gZGF0ZS5nZXRIb3VycygpO1xuXG4gICAgcmV0dXJuIGRheSArICcuJyArIG1vbnRoICsgJy4nICsgeWVhcjtcbn07XG5cbmFwcC5nZXROZWFyRGF0ZUZvclBvc3QgPSBmdW5jdGlvbiAoZGF0ZSlcbntcblx0XG5cdGlmICh7e25ld319ID49IDEpXG5cdHtcblx0XHR2YXIgb2ZmZXJUaW1lID1cblx0XHR7XG5cdFx0XHRcblx0IFxuXHRcdH07XHRcdFxuXHR9XG5cdGVsc2Vcblx0e1xuXHRcdHZhciBvZmZlclRpbWUgPVxuXHRcdHtcblx0XHRcdDc6ICB0cnVlLFxuXHRcdFx0MTI6IHRydWUsXG5cdFx0XHQyMDogdHJ1ZSxcblx0XHRcdFxuXHRcdFx0MDogdHJ1ZSxcblx0XHRcdDE6IHRydWUsXG5cdFx0XHQyOiB0cnVlLFxuXHRcdFx0MzogdHJ1ZSxcblx0XHRcdDQ6IHRydWUsXG5cdFx0XHQ1OiB0cnVlLFxuXHRcdFx0XHRcdDY6IHRydWUsXG5cblx0XHRcdFxuXHRcdFx0ODogdHJ1ZSxcblx0XHRcdDEzOiB0cnVlLFxuXHRcdFx0MjE6IHRydWVcblx0IFxuXHRcdH07XG5cblx0fVxuXHRcblxuICAgIGFwcC50b29scy5hZGREYXRlSG91cnMoZGF0ZSwgYXBwLnBvc3RFdmVyeUhvdXJzKTtcblxuICAgIHZhciBob3VycyA9IGRhdGUuZ2V0SG91cnMoKTtcblxuICAgIGlmICh0eXBlb2Yob2ZmZXJUaW1lW2hvdXJzXSkgID09ICdib29sZWFuJylcbiAgICB7XG4gICAgICAgIHdoaWxlICh0eXBlb2Yob2ZmZXJUaW1lW2hvdXJzXSkgID09ICdib29sZWFuJylcbiAgICAgICAge1xuICAgICAgICAgICAgYXBwLnRvb2xzLmFkZERhdGVIb3VycyhkYXRlLCBhcHAucG9zdEV2ZXJ5SG91cnMpO1xuXG4gICAgICAgICAgICBob3VycyA9IGRhdGUuZ2V0SG91cnMoKTtcbiAgICAgICAgfVxuICAgIH1cbn07IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5nZXREYXRlRm9ybWF0ID0gZnVuY3Rpb24gKGRhdGUpXG57XG4gICAgdmFyIHllYXIgID0gZGF0ZS5nZXRGdWxsWWVhcigpO1xuXG4gICAgdmFyIG1vbnRoID0gZGF0ZS5nZXRNb250aCgpICsgMTtcblxuICAgIHZhciBkYXkgICA9IGRhdGUuZ2V0RGF0ZSgpO1xuXG4gICAgdmFyIGhvdXJzID0gZGF0ZS5nZXRIb3VycygpO1xuXG4gICAgcmV0dXJuIGRheSArICcuJyArIG1vbnRoICsgJy4nICsgeWVhcjtcbn07XG5cbmFwcC5nZXROZWFyRGF0ZUZvclBvc3QgPSBmdW5jdGlvbiAoZGF0ZSlcbntcblx0XG5cdGlmICh7e25ld319ID49IDEpXG5cdHtcblx0XHR2YXIgb2ZmZXJUaW1lID1cblx0XHR7XG5cdFx0XHRcblx0IFxuXHRcdH07XHRcdFxuXHR9XG5cdGVsc2Vcblx0e1xuXHRcdHZhciBvZmZlclRpbWUgPVxuXHRcdHtcblx0XHRcdDc6ICB0cnVlLFxuXHRcdFx0MTI6IHRydWUsXG5cdFx0XHQyMDogdHJ1ZSxcblx0XHRcdFxuXHRcdFx0MDogdHJ1ZSxcblx0XHRcdDE6IHRydWUsXG5cdFx0XHQyOiB0cnVlLFxuXHRcdFx0MzogdHJ1ZSxcblx0XHRcdDQ6IHRydWUsXG5cdFx0XHQ1OiB0cnVlLFxuXHRcdFx0NjogdHJ1ZSxcblxuXHRcdFx0XG5cdFx0XHQ4OiB0cnVlLFxuXHRcdFx0MTM6IHRydWUsXG5cdFx0XHQyMTogdHJ1ZVxuXHQgXG5cdFx0fTtcblxuXHR9XG5cdFxuXG4gICAgYXBwLnRvb2xzLmFkZERhdGVNaW51dGVzKGRhdGUsIGFwcC5wb3N0RXZlcnkpO1xuXG4gICAgdmFyIGhvdXJzID0gZGF0ZS5nZXRIb3VycygpO1xuXG4gICAgaWYgKHR5cGVvZihvZmZlclRpbWVbaG91cnNdKSAgPT0gJ2Jvb2xlYW4nKVxuICAgIHtcbiAgICAgICAgd2hpbGUgKHR5cGVvZihvZmZlclRpbWVbaG91cnNdKSAgPT0gJ2Jvb2xlYW4nKVxuICAgICAgICB7XG4gICAgICAgICAgICBhcHAudG9vbHMuYWRkRGF0ZU1pbnV0ZXMoZGF0ZSwgYXBwLnBvc3RFdmVyeSk7XG5cbiAgICAgICAgICAgIGhvdXJzID0gZGF0ZS5nZXRIb3VycygpO1xuICAgICAgICB9XG4gICAgfVxufTtcbi8vcG9zdEV2ZXJ5SG91cnMiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
    RS("new", false, false)!
-   RESOURCE_668682 = _result().get()
+   RESOURCE_780873 = _result().get()
    app.getDateFormat = function (date)
    {
    var year  = date.getFullYear();
@@ -1329,7 +1338,7 @@
    };
    app.getNearDateForPost = function (date)
    {
-   if (RESOURCE_668682 >= 1)
+   if (RESOURCE_780873 >= 1)
    {
    var offerTime =
    {
@@ -1354,17 +1363,18 @@
    21: true
    };
    }
-   app.tools.addDateHours(date, app.postEveryHours);
+   app.tools.addDateMinutes(date, app.postEvery);
    var hours = date.getHours();
    if (typeof(offerTime[hours])  == 'boolean')
    {
    while (typeof(offerTime[hours])  == 'boolean')
    {
-   app.tools.addDateHours(date, app.postEveryHours);
+   app.tools.addDateMinutes(date, app.postEvery);
    hours = date.getHours();
    }
    }
    };
+   //postEveryHours
    section_end()!
 
    section_start("", 500923538)!
@@ -1416,8 +1426,8 @@
          section_end()!
 
          section_start("", 989087078)!
-         /*Dat:eyJzIjoibG9nIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTG9nVGV4dCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwLnBvc3RpbmdEYXRlLmdldEhvdXJzKCkiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-         log(app.postingDate.getHours())
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5wb3N0aW5nRGF0ZS5nZXRIb3VycygpICsgJzonICsgYXBwLnBvc3RpbmdEYXRlLmdldE1pbnV0ZXMoKSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         log(app.postingDate.getHours() + ':' + app.postingDate.getMinutes())
          section_end()!
 
          section_start("", 330823302)!
@@ -1515,8 +1525,8 @@ Modules=&quot;&quot;
           </Model>
           <Defaults/>
           <Model>
-               <Name>everyHours</Name>
-               <Description en="everyHours" ru="everyHours"/>
+               <Name>postEvery</Name>
+               <Description en="postEvery" ru="postEvery"/>
                <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
@@ -1525,7 +1535,7 @@ Modules=&quot;&quot;
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>FixedInteger</AllowedTypes>
-               <Value>1</Value>
+               <Value>30</Value>
                <MinValue>0</MinValue>
                <MaxValue>100</MaxValue>
           </Model>

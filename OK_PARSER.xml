@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BrowserAutomationStudioProject>
      <Script><![CDATA[section(1 /*1*/,1 /*1*/,1 /*1*/,0,function(){
-   section_start("Initialize", 0)!
+   section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
 
    section_end()!
 
-   section_start("parse_big_content___photoParse", 353837023)!
+   section_start("\u007b\u0022n\u0022:\u0022parse_big_content___photoParse\u0022\u007d", 353837023)!
    function parse_big_content___photoParse()
    {
    section_insert()
@@ -65,7 +65,7 @@
    }
    section_end()!
 
-   section_start("parse_big_content___textParse", 724642034)!
+   section_start("\u007b\u0022n\u0022:\u0022parse_big_content___textParse\u0022\u007d", 724642034)!
    function parse_big_content___textParse()
    {
    section_insert()
@@ -100,7 +100,7 @@
    }
    section_end()!
 
-   section_start("parse_big_content___close", 931550465)!
+   section_start("\u007b\u0022n\u0022:\u0022parse_big_content___close\u0022\u007d", 931550465)!
    function parse_big_content___close()
    {
    section_insert()
@@ -143,7 +143,7 @@
    }
    section_end()!
 
-   section_start("parse_big_content", 974092857)!
+   section_start("\u007b\u0022n\u0022:\u0022parse_big_content\u0022\u007d", 974092857)!
    function parse_big_content()
    {
    section_insert()
@@ -200,7 +200,7 @@
          VAR_BIG_CINTENT___BLOCK_CLASS = _result()
          section_end()!
 
-         section_start("_", 598366674)!
+         section_start("\u007b\u0022e\u0022:true\u007d", 598366674)!
          /*Dat:eyJzIjoibG9nIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTG9nVGV4dCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tCSUdfQ0lOVEVOVF9fX0JMT0NLX0NMQVNTXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
          log(VAR_BIG_CINTENT___BLOCK_CLASS)
          section_end()!
@@ -295,14 +295,14 @@
    section_end()!
 
    section_start("", 582404483)!
-   /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwLmNvbnRlbnRfdHlwZSA9IHt7Y29udGVudF90eXBlfX07XG5cbmFwcC5ncm91cHNfZG9ub3IgPSBcbntcbiAxOiAnaHR0cHM6Ly9vay5ydS9ncm91cDUxOTc3OTk3Nzc5MTI3JyxcbiAyOiAnaHR0cHM6Ly9vay5ydS9ncm91cC81NTM0OTEzNTYwNTc4MycsXG4gMzogJ2h0dHBzOi8vb2sucnUvYmVyaS5kZWxhaScsXG4gNDogJ2h0dHBzOi8vb2sucnUvc292ZXRpa2lkYW1hbSdcbn07IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jb250ZW50X3R5cGUgPSB7e2NvbnRlbnRfdHlwZX19O1xuXG5hcHAuZ3JvdXBzX2Rvbm9yID0gXG57XG4gMTogJ2h0dHBzOi8vb2sucnUvZ3JvdXA1MTk3Nzk5Nzc3OTEyNycsXG4gMjogJ2h0dHBzOi8vb2sucnUvc292ci5tYW0nLFxuIDM6ICdodHRwczovL29rLnJ1L2JlcmkuZGVsYWknLFxuIDQ6ICdodHRwczovL29rLnJ1L3NvdmV0aWtpZGFtYW0nXG59OyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
    RS("content_type", false, false)!
-   RESOURCE_197404 = _result().get()
-   app.content_type = RESOURCE_197404;
+   RESOURCE_523924 = _result().get()
+   app.content_type = RESOURCE_523924;
    app.groups_donor =
    {
    1: 'https://ok.ru/group51977997779127',
-   2: 'https://ok.ru/group/55349135605783',
+   2: 'https://ok.ru/sovr.mam',
    3: 'https://ok.ru/beri.delai',
    4: 'https://ok.ru/sovetikidamam'
    };
@@ -652,24 +652,26 @@ SkipFrames=1
 ToolboxHeight=272
 ScenarioWidth=445
 Zoom=100
-IsMaximized=true
+IsMaximized=false
 Restart=false
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
 DebugScenario=false
+Languages=&quot;&quot;
+Modules=&quot;&quot;
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
 --enable-widevine-cdm</ChromeCommandLine>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -682,8 +684,8 @@ DebugScenario=false
      <ModelList>
           <Model>
                <Name>content_type</Name>
-               <Description en="content_type" ru="content_type"/>
-               <SectionName en="" ru=""/>
+               <Description ru="content_type" en="content_type"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>

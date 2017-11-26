@@ -13,6 +13,7 @@ AND bots.type != "lost_access"
 
 SELECT 
 	b.id,
+	b.test_name,
 	(SELECT count(id) FROM group_ta_gone as gtg WHERE gtg.bot = b.id and gtg.status = "invited") as invited,
 	b.friends,
 	fp.friends_invited,
