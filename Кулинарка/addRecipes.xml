@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrowserAutomationStudioProject>
+     <Script><![CDATA[section(1 /*1*/,1 /*1*/,1 /*1*/,0,function(){
+   section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
+
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022openRecipe\u0022\u007d", 639069068)!
+   function openRecipe()
+   {
+   section_insert()
+      section_start("", 869652100)!
+      /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2VkYS5ydS9yZWNlcHR5L3phdnRyYWtpL29qYWtvZG9uLWphcG9uc2tpai1vbWxldC1zLXJpc29tLWt1cmljZWotMjg0MjUiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      /*Browser*/
+      load("https://eda.ru/recepty/zavtraki/ojakodon-japonskij-omlet-s-risom-kuricej-28425")!
+      section_end()!
+
+      section_start("", 273247241)!
+      /*Dat:eyJzIjoidGV4dCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJTYXZlVGV4dCIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiUkVDSVBFX19fSVRFTSJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiBoMSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGgxIiwiY3NzMiI6IiIsImNzczMiOiIgPkNTUz4gLnJlY2lwZV9fbmFtZSIsImN1cnJlbnQiOiJtYXRjaCIsIm1hdGNoIjoiPk1BVENIPnR5cGU9XCJhcHBsaWNhdGlvbi9sZCtqc29uXCIiLCJ4cGF0aCI6IiA+WFBBVEg+IC9odG1sWzFdL2JvZHlbQGNsYXNzPVwibGF5b3V0IG5hcnJvdy12aWV3IGctZGVza3RvcCBcIl0vZGl2W0BjbGFzcz1cIndyYXBwZXItc2VsXCJdL3NlY3Rpb25bQGNsYXNzPVwibWFpbi1jb250ZW50IGxheW91dF9fY29udGFpbmVyIGpzLW1haW4tY29udGVudCBcIl0vc2VjdGlvbltAY2xhc3M9XCJyZWNpcGUganMtcG9ydGlvbnMtY291bnQtcGFyZW50IGpzLXJlY2lwZSBcIl0vZGl2W0BjbGFzcz1cInJlY2lwZV9fdGl0bGVcIl0vaDFbQGNsYXNzPVwicmVjaXBlX19uYW1lIGctaDFcIl0iLCJhdCI6IjI3OCwgMzc4Iiwid2UiOnRydWUsImZhIjp0cnVlfX0=*/
+      /*Browser*/
+      _SELECTOR = "\u003eMATCH\u003etype=\u0022application/ld+json\u0022";
+      wait_element(_SELECTOR)!
+      get_element_selector(_SELECTOR, false).text()!
+      VAR_RECIPE___ITEM = _result()
+      section_end()!
+
+      section_start("", 405181851)!
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUkVDSVBFX19fSVRFTV1dIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+      log(VAR_RECIPE___ITEM)
+      section_end()!
+
+      section_start("", 849902454)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5yZWNpcGUgPSBKU09OLnBhcnNlKFtbUkVDSVBFX19fSVRFTV1dKTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      app.recipe = JSON.parse(VAR_RECIPE___ITEM);
+      section_end()!
+
+      section_start("", 617910443)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiBcInJlY2lwZXMvcGFyc2UvYWRkXCIsXG4gICAgcGFyYW1zOiBcbntcbiAgICBkYXRhOiBKU09OLnN0cmluZ2lmeShhcHAucmVjaXBlKVxuIH1cbn0pISIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      _call(app.post.run,
+      {
+      url: "recipes/parse/add",
+      params:
+      {
+      data: JSON.stringify(app.recipe)
+      }
+      })!
+      section_end()!
+
+   }
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022init\u0022\u007d", 249468631)!
+   function init()
+   {
+   section_insert()
+      section_start("", 187665845)!
+      /*Dat:eyJzIjoib3BlbmJyb3dzZXIiLCJlIjoiZXhlY3V0ZWFuZGFkZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W119*/
+      /*Browser*/
+      /*ManualBrowser*/
+      open_browser()!
+      section_end()!
+
+      section_start("", 16358720)!
+      /*Dat:eyJzIjoicmVzZXQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      /*Browser*/
+      reset()!
+      section_end()!
+
+      section_start("", 18689704)!
+      /*Dat:eyJzIjoiZ2V0dGhyZWFkbnVtYmVyIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiVEhSRUFEX0lOREVYIn1dfQ==*/
+      VAR_THREAD_INDEX = thread_number()
+      section_end()!
+
+      section_start("", 202476202)!
+      /*Dat:eyJzIjoiT0tCb3RJbml0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+      var app = new OkBot_App();
+      app.post  = new OkBot_myPost;
+      app.task  = OkBot_Task;
+      app.tools = OkBot_getTools();
+      section_end()!
+
+      section_start("", 820038846)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwLnBvc3QuZGVidWdMb2cgPSBmYWxzZTtcbmFwcCxhcHAuY2hlY2tTdGF0ZUdyb3VwID0gbnVsbDtcbmFwcC5vbmVJbnZpdGUgPSBmYWxzZTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      app.post.debugLog = false;
+      app,app.checkStateGroup = null;
+      app.oneInvite = false;
+      section_end()!
+
+      section_start("", 662582796)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwLnBvc3QuZGVidWdMb2cgPSB0cnVlOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      app.post.debugLog = true;
+      section_end()!
+
+      section_start("", 399447364)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiLy8g0LIg0YHQtdC60YPQvdC00LDRhVxuYXBwLnRpbWVQYXNzZWRJblNlYyA9IGZ1bmN0aW9uKGxhc3RUaW1lKVxue1xuXHRpZiAobGFzdFRpbWUgIT0gbnVsbClcblx0XHRyZXR1cm4gcGFyc2VJbnQoKChuZXcgRGF0ZSgpKSAtIChsYXN0VGltZSkpIC8gMTAwMCk7XG5cdGVsc2Vcblx0XHRyZXR1cm4gMDtcbn0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      // в секундах
+      app.timePassedInSec = function(lastTime)
+      {
+      if (lastTime != null)
+      return parseInt(((new Date()) - (lastTime)) / 1000);
+      else
+      return 0;
+      }
+      section_end()!
+
+      section_start("", 857151945)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwLmlzQXV0aCA9IGZhbHNlO1xuYXBwLmludml0ZSA9IHt9O1xuXG5hcHAuaW52aXRlLmxhc3RfaW52aXRlID0gbnVsbDtcbmFwcC5pbnZpdGUuZGVsYXkgPSBhcHAudG9vbHMucmFuZCgyMCwgNTApOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      app.isAuth = false;
+      app.invite = {};
+      app.invite.last_invite = null;
+      app.invite.delay = app.tools.rand(20, 50);
+      section_end()!
+
+   }
+   section_end()!
+
+   _call(_on_start, null)!
+
+   section_start("", 935436673)!
+   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImluaXQifV19*/
+   _call(init,null)!
+   section_end()!
+
+   section_start("", 128618217)!
+   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9wZW5SZWNpcGUifV19*/
+   _call(openRecipe,null)!
+   section_end()!
+
+   section_start("", 103718727)!
+   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiBcInJlY2lwZXMvcGFyc2UvYWRkXCIsXG4gICAgcGFyYW1zOiBcbntcbiAgICBkYXRhOiBKU09OLnN0cmluZ2lmeShhcHAucmVjaXBlKVxuIH1cbn0pISIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+   _call(app.post.run,
+   {
+   url: "recipes/parse/add",
+   params:
+   {
+   data: JSON.stringify(app.recipe)
+   }
+   })!
+   section_end()!
+
+})!]]></Script>
+     <EmbeddedData><![CDATA[[]]]></EmbeddedData>
+     <DatabaseId>Database.30482</DatabaseId>
+     <Schema></Schema>
+     <ConnectionIsRemote>false</ConnectionIsRemote>
+     <ConnectionServer></ConnectionServer>
+     <ConnectionPort></ConnectionPort>
+     <ConnectionLogin></ConnectionLogin>
+     <ConnectionPassword></ConnectionPassword>
+     <ScriptName></ScriptName>
+     <HideBrowsers>false</HideBrowsers>
+     <ScriptVersion></ScriptVersion>
+     <AvailableLanguages>en,ru</AvailableLanguages>
+     <EngineVersion>20.5.1</EngineVersion>
+     <SettingsWorker>EnableFlash=false
+ProxiesReconnect=true
+ForceUtf8=true
+IsSafe=false
+SkipFrames=1
+ToolboxHeight=272
+ScenarioWidth=445
+Zoom=100
+IsMaximized=false
+Restart=false
+UseHumanLikeMouseMoves=true
+DebugToolbox=false
+DebugScenario=false
+Languages=&quot;&quot;
+Modules=&quot;&quot;
+</SettingsWorker>
+     <ChromeCommandLine>--disable-gpu
+--disable-gpu-compositing
+--enable-widevine-cdm</ChromeCommandLine>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputVisible1>1</OutputVisible1>
+     <OutputVisible2>1</OutputVisible2>
+     <OutputVisible3>1</OutputVisible3>
+     <OutputVisible4>0</OutputVisible4>
+     <OutputVisible5>0</OutputVisible5>
+     <OutputVisible6>0</OutputVisible6>
+     <OutputVisible7>0</OutputVisible7>
+     <OutputVisible8>0</OutputVisible8>
+     <OutputVisible9>0</OutputVisible9>
+     <ModelList/>
+</BrowserAutomationStudioProject>
