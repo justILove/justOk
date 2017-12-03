@@ -410,21 +410,6 @@
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0lTX0VYSVNUU11dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
          _if(VAR_IS_EXISTS,function(){
          section_insert()
-            section_start("", 446996752)!
-            /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAjXFwzQSA1dyA+IGIiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjXFwzQSA1dyA+IGIiLCJjc3MyIjoiID5DU1M+IDpudGgtY2hpbGQoMSkgPiBkaXYgPiA6bnRoLWNoaWxkKDEpID4gYiIsImNzczMiOiIiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD4+0JLQvtGB0YHRgtCw0L3QvtCy0LvQtdC90LgiLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiOjV3XCIpL2JbMV0iLCJhdCI6IjU2NSwgMzA1Iiwid2UiOnRydWUsImZhIjp0cnVlfX0=*/
-            /*Browser*/
-            _SELECTOR = "\u003eMATCH\u003e\u003eВосстановлени";
-            wait_element_visible(_SELECTOR)!
-            get_element_selector(_SELECTOR, false).random_point()!
-            _if(_result().length > 0, function(){
-            move( {} )!
-            get_element_selector(_SELECTOR, false).clarify(X,Y)!
-            _call(_clarify, {} )!
-            mouse(X,Y)!
-            })!
-            wait_async_load()!
-            section_end()!
-
             section_start("", 849015323)!
             /*Dat:eyJzIjoibW92ZWFuZGNsaWNrZWxlbWVudCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiU2VsZWN0IiwidHlwZSI6InNlbGVjdCIsImRhdGEiOiJsZWZ0In0seyJpZCI6IlNwZWVkIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiR3Jhdml0eSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJEZXZpYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjIuNSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiA6bnRoLWNoaWxkKDMpID4gOm50aC1jaGlsZCgyKSA+IGRpdiA+IHRhYmxlID4gdGJvZHkgPiB0ciA+IHRkID4gYSIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IDpudGgtY2hpbGQoMykgPiA6bnRoLWNoaWxkKDIpID4gZGl2ID4gdGFibGUgPiB0Ym9keSA+IHRyID4gdGQgPiBhIiwiY3NzMiI6IiIsImNzczMiOiIgPkNTUz4gLm1fNTE3ODAxNDkxMzgyNjM3NjY3NG5vdGlmaWNhdGlvbiA+IHRhYmxlID4gdGJvZHkgPiB0ciA+IHRkID4gYSIsImN1cnJlbnQiOiJtYXRjaCIsIm1hdGNoIjoiPk1BVENIPjxhIGhyZWY9XCJodHRwczovL29rLnJ1L3JwYXNzLyIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCI6NnBcIikvZGl2WzFdL3RhYmxlWzFdL3Rib2R5WzFdL3RyWzNdL3RkWzJdL2RpdltAY2xhc3M9XCJtXzUxNzgwMTQ5MTM4MjYzNzY2NzRub3RpZmljYXRpb24gbV81MTc4MDE0OTEzODI2Mzc2Njc0dGV4dFwiXS90YWJsZVsxXS90Ym9keVsxXS90clsxXS90ZFsxXS9hWzFdIiwiYXQiOiIzMDksIDM5NiIsIndlIjp0cnVlLCJmYSI6dHJ1ZX19*/
             /*Browser*/
@@ -456,11 +441,12 @@
             section_end()!
 
             section_start("", 568834965)!
-            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5hY2Mub2tfcGFzcyA9IGFwcC5yZWdEYXRhLmVtYWlsICsgJ18xNyc7XG5hcHAuYWNjLmdyb3VwID0ge3tJRCDQs9GA0YPQv9C/0Yt9fTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+            /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5hY2Mub2tfcGFzcyA9IGFwcC5yZWdEYXRhLmVtYWlsICsgJ18xNyc7XG5hcHAuYWNjLmdyb3VwID0ge3tJRCDQs9GA0YPQv9C/0Yt9fTtcbmFwcC5hY2MucGhvbmUgPSBhcHAuc21zLm51bWJlcjsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
             RS("ID группы", false, false)!
-            RESOURCE_257704 = _result().get()
+            RESOURCE_371903 = _result().get()
             app.acc.ok_pass = app.regData.email + '_17';
-            app.acc.group = RESOURCE_257704;
+            app.acc.group = RESOURCE_371903;
+            app.acc.phone = app.sms.number;
             section_end()!
 
             section_start("", 193437689)!
@@ -2007,7 +1993,7 @@
      <HideBrowsers>false</HideBrowsers>
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>20.5.1</EngineVersion>
+     <EngineVersion>20.6.4</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true

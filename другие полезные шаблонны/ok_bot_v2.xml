@@ -8339,11 +8339,11 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
      <ConnectionPort></ConnectionPort>
      <ConnectionLogin></ConnectionLogin>
      <ConnectionPassword></ConnectionPassword>
-     <ScriptName></ScriptName>
+     <ScriptName>OkBot</ScriptName>
      <HideBrowsers>false</HideBrowsers>
-     <ScriptVersion></ScriptVersion>
+     <ScriptVersion>2.0.0</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>20.5.1</EngineVersion>
+     <EngineVersion>20.6.4</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true
@@ -8393,7 +8393,7 @@ Modules=&quot;&quot;
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>FixedInteger</AllowedTypes>
-               <Value>2</Value>
+               <Value>20</Value>
                <MinValue>1</MinValue>
                <MaxValue>99999999</MaxValue>
           </Model>

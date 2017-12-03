@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BrowserAutomationStudioProject>
-     <Script>section(1 /*1*/,1 /*1*/,1 /*1*/,0,function(){
-   section_start(&quot;\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d&quot;, 0)!
+     <Script><![CDATA[section(1 /*1*/,1 /*1*/,1 /*1*/,0,function(){
+   section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
    browser()!
    section_end()!
 
    _call(_on_start, null)!
 
-   section_start(&quot;&quot;, 778438487)!
+   section_start("", 778438487)!
    /*Dat:eyJzIjoiT0tCb3RJbml0IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
    var app = new OkBot_App();
    app.post  = new OkBot_myPost;
@@ -15,7 +15,7 @@
    app.tools = OkBot_getTools();
    section_end()!
 
-   section_start(&quot;&quot;, 284871070)!
+   section_start("", 284871070)!
    /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiAnYWxsUHJveHkvZ2V0QWxsUHJveHknXG59KSEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
    _call(app.post.run,
    {
@@ -23,24 +23,24 @@
    })!
    section_end()!
 
-   section_start(&quot;&quot;, 965317261)!
+   section_start("", 965317261)!
    /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5hbGxQcm94eSA9IGFwcC5wb3N0LnIucmVzdWx0OyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
    app.allProxy = app.post.r.result;
    section_end()!
 
-   section_start(&quot;&quot;, 900938204)!
+   section_start("", 900938204)!
    /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5hbGxQcm94eS5sZW5ndGgiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
    log(app.allProxy.length)
    section_end()!
 
-   section_start(&quot;&quot;, 918633705)!
+   section_start("", 918633705)!
    /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAuYWxsUHJveHkubGVuZ3RoID4gMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
    _do(function(){
    VAR_CYCLE_INDEX = _iterator() - 1
-   BREAK_CONDITION = app.allProxy.length &gt; 0;
+   BREAK_CONDITION = app.allProxy.length > 0;
    if(!BREAK_CONDITION)_break();
    section_insert()
-      section_start(&quot;&quot;, 130739092)!
+      section_start("", 130739092)!
       /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
       _call(function()
       {
@@ -50,76 +50,76 @@
       _break()
       })
       VAR_WAS_ERROR = false
-      CYCLES.Current().RemoveLabel(&quot;function&quot;)
+      CYCLES.Current().RemoveLabel("function")
       section_insert()
-         section_start(&quot;&quot;, 982657918)!
+         section_start("", 982657918)!
          /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5wcm94eSA9IGFwcC5hbGxQcm94eS5wb3AoKTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
          app.proxy = app.allProxy.pop();
          section_end()!
 
-         section_start(&quot;&quot;, 601096128)!
+         section_start("", 601096128)!
          /*Dat:eyJzIjoicmVzZXQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
          /*Browser*/
          reset()!
          section_end()!
 
-         section_start(&quot;&quot;, 831611464)!
+         section_start("", 831611464)!
          /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUHJveHlUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAucHJveHkucHJveHkiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiUHJveHlUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlMb2dpbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlQYXNzd29yZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVGFyZ2V0VXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIqIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVGFyZ2V0VGFiTnVtYmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIqIiwiY2xhc3MiOiJzdHJpbmcifV19*/
          /*Browser*/
          var hash = proxy_parse(app.proxy.proxy)
-         if(&quot;http&quot; != &quot;auto&quot; ){
-         hash[&quot;IsHttp&quot;] = &quot;http&quot; == &quot;http&quot;
+         if("http" != "auto" ){
+         hash["IsHttp"] = "http" == "http"
          }
-         var login = &quot;&quot;
-         var password = &quot;&quot;
-         if(login.length &gt; 0 &amp;&amp; password.length &gt; 0 )
+         var login = ""
+         var password = ""
+         if(login.length > 0 && password.length > 0 )
          {
-         hash[&quot;name&quot;] = login
-         hash[&quot;password&quot;] = password
+         hash["name"] = login
+         hash["password"] = password
          }
-         set_proxy(hash[&quot;server&quot;], hash[&quot;Port&quot;], hash[&quot;IsHttp&quot;], hash[&quot;name&quot;], hash[&quot;password&quot;])!
+         set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
          section_end()!
 
-         section_start(&quot;&quot;, 262877721)!
+         section_start("", 262877721)!
          /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IidQcm94eTogJyArIGFwcC5wcm94eS5pZCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
          log('Proxy: ' + app.proxy.id)
          section_end()!
 
-         section_start(&quot;&quot;, 569269237)!
+         section_start("", 569269237)!
          /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL29rLnJ1LyIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
          /*Browser*/
-         load(&quot;https://ok.ru/&quot;)!
+         load("https://ok.ru/")!
          section_end()!
 
-         section_start(&quot;&quot;, 189554272)!
+         section_start("", 189554272)!
          /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIyMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
          sleep(2000)!
          section_end()!
 
-         section_start(&quot;&quot;, 298013160)!
+         section_start("", 298013160)!
          /*Dat:eyJzIjoiZXhpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiSVNfRVhJU1RTIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+ICNhbm9ueW1QYWdlQ29udGVudCA+IDpudGgtY2hpbGQoMSkiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiAjYW5vbnltUGFnZUNvbnRlbnQgPiA6bnRoLWNoaWxkKDEpIiwiY3NzMiI6IiA+Q1NTPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkiLCJjc3MzIjoiID5DU1M+IC5wcmwiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGRpdiBkYXRhLXByb21vPVwic3VtbWVyXCIgZGF0YS1zdGF0aWM9XCIvLyIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJhbm9ueW1QYWdlQ29udGVudFwiKS9kaXZbQGNsYXNzPVwicHJsIGgtbW9kIF9fc2hvd1wiXSIsImF0IjoiMjYsIDQxIiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
          /*Browser*/
-         ;_SELECTOR=&quot; \u003eCSS\u003e #anonymPageContent \u003e :nth-child(1)&quot;;
+         ;_SELECTOR=" \u003eCSS\u003e #anonymPageContent \u003e :nth-child(1)";
          get_element_selector(_SELECTOR, false).nowait().exist()!
          VAR_IS_EXISTS = _result() == 1
          _if(VAR_IS_EXISTS, function(){
-         get_element_selector(_SELECTOR, false).nowait().style(&quot;display&quot;)!
+         get_element_selector(_SELECTOR, false).nowait().style("display")!
          STYLE_DISPLAY = _result()
-         get_element_selector(_SELECTOR, false).nowait().style(&quot;visibility&quot;)!
+         get_element_selector(_SELECTOR, false).nowait().style("visibility")!
          STYLE2_DISPLAY = _result()
-         get_element_selector(_SELECTOR, false).nowait().script(&quot;self.getBoundingClientRect().height&quot;)!
+         get_element_selector(_SELECTOR, false).nowait().script("self.getBoundingClientRect().height")!
          STYLE_HEIGHT = _result()
-         get_element_selector(_SELECTOR, false).nowait().script(&quot;self.getBoundingClientRect().width&quot;)!
+         get_element_selector(_SELECTOR, false).nowait().script("self.getBoundingClientRect().width")!
          STYLE_WIDTH = _result()
-         VAR_IS_EXISTS = STYLE_DISPLAY != &quot;none&quot; &amp;&amp; STYLE2_DISPLAY != &quot;hidden&quot; &amp;&amp; STYLE_HEIGHT != &quot;0&quot;  &amp;&amp; STYLE_WIDTH != &quot;0&quot;
+         VAR_IS_EXISTS = STYLE_DISPLAY != "none" && STYLE2_DISPLAY != "hidden" && STYLE_HEIGHT != "0"  && STYLE_WIDTH != "0"
          })!
          section_end()!
 
-         section_start(&quot;&quot;, 304911128)!
+         section_start("", 304911128)!
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIhW1tJU19FWElTVFNdXSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
          _if(!VAR_IS_EXISTS,function(){
          section_insert()
-            section_start(&quot;&quot;, 770586034)!
+            section_start("", 770586034)!
             /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IidQcm94eSDQtNC10YDRjNC80L46ICcgKyBhcHAucHJveHkuaWQiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
             log('Proxy дерьмо: ' + app.proxy.id)
             section_end()!
@@ -133,7 +133,8 @@
    })!
    section_end()!
 
-})!</Script>
+})!]]></Script>
+     <EmbeddedData><![CDATA[[]]]></EmbeddedData>
      <DatabaseId>Database.32611</DatabaseId>
      <Schema></Schema>
      <ConnectionIsRemote>false</ConnectionIsRemote>
@@ -145,7 +146,7 @@
      <HideBrowsers>false</HideBrowsers>
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>20.1.0</EngineVersion>
+     <EngineVersion>20.6.4</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true
@@ -161,21 +162,17 @@ DebugToolbox=false
 DebugScenario=false
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
---disable-gpu-compositing</ChromeCommandLine>
-     <ModulesMetaJson>{
-    &quot;Ok Bot&quot;: false,
-    &quot;TRAVIAN&quot;: false
-}
-</ModulesMetaJson>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+--disable-gpu-compositing
+--enable-widevine-cdm</ChromeCommandLine>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>

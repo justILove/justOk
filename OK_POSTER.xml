@@ -1535,9 +1535,9 @@ Modules=&quot;&quot;
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>FixedInteger</AllowedTypes>
-               <Value>30</Value>
+               <Value>4</Value>
                <MinValue>0</MinValue>
-               <MaxValue>100</MaxValue>
+               <MaxValue>400</MaxValue>
           </Model>
           <Defaults/>
           <Model>
