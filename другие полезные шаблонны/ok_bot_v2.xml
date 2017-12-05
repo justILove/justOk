@@ -8348,30 +8348,31 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 ProxiesReconnect=true
 ForceUtf8=true
 IsSafe=false
-SkipFrames=1
+SkipFrames=75
 ToolboxHeight=272
 ScenarioWidth=445
 Zoom=100
 IsMaximized=false
-Restart=false
+Restart=true
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
 DebugScenario=false
 Languages=&quot;&quot;
 Modules=&quot;&quot;
+ProxyTunneling=false
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
 --enable-widevine-cdm</ChromeCommandLine>
-     <OutputTitle1 en="" ru=""/>
-     <OutputTitle2 en="" ru=""/>
-     <OutputTitle3 en="" ru=""/>
-     <OutputTitle4 en="" ru=""/>
-     <OutputTitle5 en="" ru=""/>
-     <OutputTitle6 en="" ru=""/>
-     <OutputTitle7 en="" ru=""/>
-     <OutputTitle8 en="" ru=""/>
-     <OutputTitle9 en="" ru=""/>
+     <OutputTitle1 ru="" en=""/>
+     <OutputTitle2 ru="" en=""/>
+     <OutputTitle3 ru="" en=""/>
+     <OutputTitle4 ru="" en=""/>
+     <OutputTitle5 ru="" en=""/>
+     <OutputTitle6 ru="" en=""/>
+     <OutputTitle7 ru="" en=""/>
+     <OutputTitle8 ru="" en=""/>
+     <OutputTitle9 ru="" en=""/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>0</OutputVisible2>
      <OutputVisible3>0</OutputVisible3>
@@ -8384,8 +8385,8 @@ Modules=&quot;&quot;
      <ModelList>
           <Model>
                <Name>threats</Name>
-               <Description en="PLEASE FILL DESCRIPTION" ru="Потоки"/>
-               <SectionName en="" ru=""/>
+               <Description ru="Потоки" en="PLEASE FILL DESCRIPTION"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -8400,8 +8401,8 @@ Modules=&quot;&quot;
           <Defaults/>
           <Model>
                <Name>debug</Name>
-               <Description en="debug" ru="debug"/>
-               <SectionName en="" ru=""/>
+               <Description ru="debug" en="debug"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
