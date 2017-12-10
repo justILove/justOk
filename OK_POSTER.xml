@@ -1117,12 +1117,10 @@
    function auth()
    {
    section_insert()
-      section_start("", 981375729)!
-      /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiX2NhbGwoYXBwLmxvYWQsIFxue1xuICAgIHVybDogXCJodHRwOi8vb2sucnUvXCJcbn0pISIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-      _call(app.load,
-      {
-      url: "http://ok.ru/"
-      })!
+      section_start("", 287030404)!
+      /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwOi8vb2sucnUvIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+      /*Browser*/
+      load("http://ok.ru/")!
       section_end()!
 
       section_start("", 429352420)!
@@ -1469,7 +1467,7 @@
      <HideBrowsers>false</HideBrowsers>
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>20.5.1</EngineVersion>
+     <EngineVersion>20.6.4</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true
@@ -1485,6 +1483,7 @@ DebugToolbox=false
 DebugScenario=false
 Languages=&quot;&quot;
 Modules=&quot;&quot;
+ProxyTunneling=false
 </SettingsWorker>
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing

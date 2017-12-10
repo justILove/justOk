@@ -6936,7 +6936,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
                   section_insert()
                      section_start("", 77846609)!
                      /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-                     _long_goto("startInvite", -1, [null,"_internal_1155720"])!
+                     _long_goto("startInvite", -1, [null,"_internal_9268248"])!
                      section_end()!
 
                   })!
@@ -7208,7 +7208,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
                         section_start("", 729073483)!
                         /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-                        _long_goto("startInvite", -1, [null,"_internal_1155720"])!
+                        _long_goto("startInvite", -1, [null,"_internal_9268248"])!
                         section_end()!
 
                      })!
@@ -7236,7 +7236,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
             section_start("", 237551513)!
             /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-            _long_goto("startInvite", -1, [null,"_internal_1155720"])!
+            _long_goto("startInvite", -1, [null,"_internal_9268248"])!
             section_end()!
 
          })!
@@ -7244,7 +7244,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 
          section_start("", 261221313)!
          /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJzdGFydEludml0ZSJ9XX0=*/
-         _long_goto("startInvite", -1, [null,"_internal_1155720"])!
+         _long_goto("startInvite", -1, [null,"_internal_9268248"])!
          section_end()!
 
       },null)!
@@ -7898,12 +7898,10 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
          })!
          section_end()!
 
-         section_start("", 911526990)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwiZSI6ImV4ZWN1dGVhbmRhZGQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiX2NhbGwoYXBwLmxvYWQsIFxue1xuICAgIHVybDogXCJodHRwczovL29rLnJ1L1wiXG59KSFcblxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-         _call(app.load,
-         {
-         url: "https://ok.ru/"
-         })!
+         section_start("", 309921636)!
+         /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIgaHR0cHM6Ly93d3cub2sucnUvIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+         /*Browser*/
+         load(" https://www.ok.ru/")!
          section_end()!
 
          section_start("\u007b\u0022n\u0022:\u0022is auth?\u0022\u007d", 958519643)!
@@ -8315,7 +8313,7 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
    })!
    section_end()!
 
-   _set_goto_label("_internal_1155720")!section_start("", 949931605)!
+   _set_goto_label("_internal_9268248")!section_start("", 949931605)!
    /*Dat:eyJzIjoibGFiZWwiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiTGFiZWwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImxvZ291dCIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
    _set_goto_label("logout")!
    section_end()!
@@ -8348,12 +8346,12 @@ section(RESOURCE_1 /*{{threats}}*/,155555 /*155555*/,1555555 /*1555555*/,0,funct
 ProxiesReconnect=true
 ForceUtf8=true
 IsSafe=false
-SkipFrames=75
+SkipFrames=1
 ToolboxHeight=272
 ScenarioWidth=445
 Zoom=100
 IsMaximized=false
-Restart=true
+Restart=false
 UseHumanLikeMouseMoves=true
 DebugToolbox=false
 DebugScenario=false

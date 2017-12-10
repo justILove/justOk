@@ -425,10 +425,10 @@
       section_end()!
 
       section_start("", 315863523)!
-      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0ZFRURfTEVOR1RIXV0gJiYgW1tDWUNMRV9JTkRFWF1dIDwgMTUiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0ZFRURfTEVOR1RIXV0gJiYgW1tDWUNMRV9JTkRFWF1dIDwgMjUiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
       _do(function(){
       VAR_CYCLE_INDEX = _iterator() - 1
-      BREAK_CONDITION = VAR_FEED_LENGTH && VAR_CYCLE_INDEX < 15;
+      BREAK_CONDITION = VAR_FEED_LENGTH && VAR_CYCLE_INDEX < 25;
       if(!BREAK_CONDITION)_break();
       section_insert()
          section_start("", 144454592)!
@@ -702,7 +702,7 @@
      <HideBrowsers>false</HideBrowsers>
      <ScriptVersion></ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
-     <EngineVersion>20.5.1</EngineVersion>
+     <EngineVersion>20.6.4</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=true
 ForceUtf8=true
@@ -722,15 +722,15 @@ Modules=&quot;&quot;
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
 --enable-widevine-cdm</ChromeCommandLine>
-     <OutputTitle1 ru="First Results" en="First Results"/>
-     <OutputTitle2 ru="Second Results" en="Second Results"/>
-     <OutputTitle3 ru="Third Results" en="Third Results"/>
-     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
-     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
-     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
-     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
-     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
-     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputTitle1 en="First Results" ru="First Results"/>
+     <OutputTitle2 en="Second Results" ru="Second Results"/>
+     <OutputTitle3 en="Third Results" ru="Third Results"/>
+     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
+     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
+     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
+     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
+     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
+     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -743,8 +743,8 @@ Modules=&quot;&quot;
      <ModelList>
           <Model>
                <Name>content_type</Name>
-               <Description ru="content_type" en="content_type"/>
-               <SectionName ru="" en=""/>
+               <Description en="content_type" ru="content_type"/>
+               <SectionName en="" ru=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
