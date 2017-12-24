@@ -5,34 +5,180 @@
 
    section_end()!
 
+   section_start("\u007b\u0022n\u0022:\u0022recipes_parse\u0022\u007d", 850712723)!
+   function recipes_parse()
+   {
+   section_insert()
+      section_start("\u007b\u0022e\u0022:true\u007d", 363992289)!
+      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAuY2F0ZWdvcnkucGFyc2UubGVuZ3RoIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      _do(function(){
+      VAR_CYCLE_INDEX = _iterator() - 1
+      BREAK_CONDITION = app.category.parse.length;
+      if(!BREAK_CONDITION)_break();
+      section_insert()
+         section_start("", 383753593)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yeS5jdXJJdGVtID0gYXBwLmNhdGVnb3J5LnBhcnNlLnBvcCgpOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         app.category.curItem = app.category.parse.pop();
+         section_end()!
+
+         section_start("", 829670803)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9wZW5SZWNpcGUifV19*/
+         _call(openRecipe,null)!
+         section_end()!
+
+      })!
+      section_end()!
+
+   }
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022parse_totalCategories\u0022\u007d", 912515949)!
+   function parse_totalCategories()
+   {
+   section_insert()
+      section_start("", 552258153)!
+      /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL2VkYS5ydS8iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      /*Browser*/
+      load("https://eda.ru/")!
+      section_end()!
+
+      section_start("", 527652192)!
+      /*Dat:eyJzIjoibGVuZ3RoIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkVMRU1FTlRfTEVOR1RIIn1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IC5zZW8tZm9vdGVyX19saXN0LWl0ZW0iLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDYpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgyKSIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC5cXDVGIGFjdGl2ZSA+IC5ibG9jay1saW5rIiwiY3VycmVudCI6ImNzcyIsIm1hdGNoIjoiPk1BVENIPjxhIGNsYXNzPVwiYmxvY2stbGlua1wiIGhyZWY9XCJodHRwczovL2VkYS4iLCJ4cGF0aCI6IiA+WFBBVEg+IC9odG1sWzFdL2JvZHlbQGNsYXNzPVwibGF5b3V0IG5hcnJvdy12aWV3IGctZGVza3RvcCBtYWluLXBhZ2UgX3dpdGgtYnJhbmRpbmdcIl0vZGl2W0BjbGFzcz1cIndyYXBwZXItc2VsXCJdL3NlY3Rpb25bQGNsYXNzPVwibWFpbi1jb250ZW50IGxheW91dF9fY29udGFpbmVyIGpzLW1haW4tY29udGVudCBtYWluLXBhZ2VcIl0vc2VjdGlvbltAY2xhc3M9XCJnYWxsIGZlYXR1cmVzIGpzLWdhbGwgX2xvYWRlZFwiXS91bFtAY2xhc3M9XCJnYWxsX19zY3JvbGxlciBqcy1nYWxsLXNjcm9sbGVyXCJdL2xpW0BjbGFzcz1cImdhbGxfX2l0ZW0gZmVhdHVyZXNfX21haW4ganMtZ2FsbC1pdGVtIF9hY3RpdmVcIl0vYVtAY2xhc3M9XCJibG9jay1saW5rXCJdIiwiYXQiOiI0MTksIDMyNiJ9fQ==*/
+      /*Browser*/
+      ;_SELECTOR=" \u003eCSS\u003e .seo-footer__list-item";
+      get_element_selector(_SELECTOR, true).length()!
+      VAR_ELEMENT_LENGTH = _result()
+      section_end()!
+
+      section_start("", 395105025)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yaWVzID0gW107IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      app.categories = [];
+      section_end()!
+
+      section_start("", 146189296)!
+      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NZQ0xFX0lOREVYXV0gPCBbW0VMRU1FTlRfTEVOR1RIXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      _do(function(){
+      VAR_CYCLE_INDEX = _iterator() - 1
+      BREAK_CONDITION = VAR_CYCLE_INDEX < VAR_ELEMENT_LENGTH;
+      if(!BREAK_CONDITION)_break();
+      section_insert()
+         section_start("", 306950352)!
+         /*Dat:eyJzIjoiYXR0ciIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJTQVZFRF9BVFRSSUJVVEUifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImhyZWYiLCJjbGFzcyI6InN0cmluZyJ9XSwicCI6eyJpc19pbWFnZSI6ZmFsc2UsImNzcyI6IiA+Q1NTPiAuc2VvLWZvb3Rlcl9fbGlzdC1pdGVtID4gYSA+QVQ+W1tDWUNMRV9JTkRFWF1dIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoNTcpIiwiY3NzMiI6IiIsImNzczMiOiIiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PGxpIGNsYXNzPVwic2VvLWZvb3Rlcl9fbGlzdC1pdGVtXCI+ICAgICAgIiwieHBhdGgiOiIgPlhQQVRIPiAvaHRtbFtAY2xhc3M9XCJcIl0vYm9keVtAY2xhc3M9XCJsYXlvdXQgbmFycm93LXZpZXcgZy1kZXNrdG9wIG1haW4tcGFnZSBfd2l0aC1icmFuZGluZ1wiXS9kaXZbQGNsYXNzPVwid3JhcHBlci1zZWxcIl0vc2VjdGlvbltAY2xhc3M9XCJtYWluLWNvbnRlbnQgbGF5b3V0X19jb250YWluZXIganMtbWFpbi1jb250ZW50IG1haW4tcGFnZVwiXS9zZWN0aW9uW0BjbGFzcz1cInNlby1mb290ZXJcIl0vZGl2WzFdL3VsW0BjbGFzcz1cInNlby1mb290ZXJfX2xpc3RcIl0vbGlbQGNsYXNzPVwic2VvLWZvb3Rlcl9fbGlzdC1pdGVtXCJdIiwiYXQiOiI4NiwgNjkyOCIsIndlIjp0cnVlLCJmYSI6dHJ1ZX19*/
+         /*Browser*/
+         _SELECTOR = " \u003eCSS\u003e .seo-footer__list-item \u003e a \u003eAT\u003e" + VAR_CYCLE_INDEX;
+         wait_element(_SELECTOR)!
+         get_element_selector(_SELECTOR, false).attr("href")!
+         VAR_SAVED_ATTRIBUTE = _result()
+         section_end()!
+
+         section_start("", 454857397)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbU0FWRURfQVRUUklCVVRFXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         log(VAR_SAVED_ATTRIBUTE)
+         section_end()!
+
+         section_start("", 850100122)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yaWVzLnB1c2goVkFSX1NBVkVEX0FUVFJJQlVURSk7IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+         app.categories.push(VAR_SAVED_ATTRIBUTE);
+         section_end()!
+
+      })!
+      section_end()!
+
+      section_start("", 955310301)!
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yaWVzLmxlbmd0aCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      log(app.categories.length)
+      section_end()!
+
+      section_start("", 863090966)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiBcInJlY2lwZXMvcGFyc2UvYWRkQ2F0ZWdvcmllc1wiLFxuICAgIHBhcmFtczogXG57XG4gICAgbGlzdDogSlNPTi5zdHJpbmdpZnkoYXBwLmNhdGVnb3JpZXMpXG4gfVxufSkhIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      _call(app.post.run,
+      {
+      url: "recipes/parse/addCategories",
+      params:
+      {
+      list: JSON.stringify(app.categories)
+      }
+      })!
+      section_end()!
+
+   }
+   section_end()!
+
    section_start("\u007b\u0022n\u0022:\u0022parseCategory\u0022\u007d", 817728734)!
    function parseCategory()
    {
    section_insert()
-      section_start("", 436515925)!
-      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yeSA9IFxue1xuICAgIHBhcnNlOiBbXVxufTsiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-      app.category =
+      section_start("", 956208307)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiBcInJlY2lwZXMvcGFyc2UvZ2V0Q2F0ZWdvcnlUb1BhcnNlXCJcbn0pISIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+      _call(app.post.run,
       {
-      parse: []
-      };
+      url: "recipes/parse/getCategoryToParse"
+      })!
+      section_end()!
+
+      section_start("", 970495375)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yeSA9IGFwcC5wb3N0LnIucmVzdWx0O1xuYXBwLmNhdGVnb3J5LnBhcnNlID0gW107IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      app.category = app.post.r.result;
+      app.category.parse = [];
       section_end()!
 
       section_start("", 102487014)!
-      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NZQ0xFX0lOREVYXV0gPCAyMDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NZQ0xFX0lOREVYXV0gPCA1MDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
       _do(function(){
       VAR_CYCLE_INDEX = _iterator() - 1
-      BREAK_CONDITION = VAR_CYCLE_INDEX < 200;
+      BREAK_CONDITION = VAR_CYCLE_INDEX < 500;
       if(!BREAK_CONDITION)_break();
       section_insert()
-         section_start("", 378415068)!
-         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IidodHRwczovL2VkYS5ydS9yZWNlcHR5L2JvcnNjaD9wYWdlPScgKyAoVkFSX0NZQ0xFX0lOREVYICsgMSkiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
-         log('https://eda.ru/recepty/borsch?page=' + (VAR_CYCLE_INDEX + 1))
+         section_start("", 646985339)!
+         /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJXQVNfRVJST1IifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         VAR_WAS_ERROR = "true"
          section_end()!
 
-         section_start("", 143293561)!
-         /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiInaHR0cHM6Ly9lZGEucnUvcmVjZXB0eS9ib3JzY2g/cGFnZT0nICsgKFZBUl9DWUNMRV9JTkRFWCArIDEpIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-         /*Browser*/
-         load('https://eda.ru/recepty/borsch?page=' + (VAR_CYCLE_INDEX + 1))!
+         section_start("", 651556885)!
+         /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJQQUdFX0lOREVYIn0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQ1lDTEVfSU5ERVhdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         VAR_PAGE_INDEX = VAR_CYCLE_INDEX
+         section_end()!
+
+         section_start("", 796630117)!
+         /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+         _do(function(){
+         VAR_CYCLE_INDEX = _iterator() - 1
+         BREAK_CONDITION = VAR_WAS_ERROR;
+         if(!BREAK_CONDITION)_break();
+         section_insert()
+            section_start("", 466032168)!
+            /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+            _call(function()
+            {
+            _on_fail(function(){
+            VAR_LAST_ERROR = _result()
+            VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+            VAR_WAS_ERROR = false
+            _break(1,true)
+            })
+            CYCLES.Current().RemoveLabel("function")
+            section_insert()
+               section_start("", 818043322)!
+               /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yeS51cmwgKyAnP3BhZ2U9JyArIChWQVJfUEFHRV9JTkRFWCArIDEpIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+               log(app.category.url + '?page=' + (VAR_PAGE_INDEX + 1))
+               section_end()!
+
+               section_start("", 36551370)!
+               /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIxIiwidXRpIjoiODAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvYWRVcmwiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yeS51cmwgKyAnP3BhZ2U9JyArIChWQVJfUEFHRV9JTkRFWCArIDEpIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+               /*Browser*/
+               general_timeout_next(80000)
+               load(app.category.url + '?page=' + (VAR_PAGE_INDEX + 1))!
+               section_end()!
+
+               section_start("", 471695701)!
+               /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+               sleep(1000)!
+               section_end()!
+
+            },null)!
+            section_end()!
+
+         })!
          section_end()!
 
          section_start("", 199444021)!
@@ -41,6 +187,11 @@
          ;_SELECTOR=" \u003eCSS\u003e .horizontal-tile__item-title.item-title ";
          get_element_selector(_SELECTOR, true).length()!
          VAR_ELEMENT_LENGTH = _result()
+         section_end()!
+
+         section_start("", 100147873)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlJlYyBvbiBwYWdlOiBbW0VMRU1FTlRfTEVOR1RIXV0gIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+         log("Rec on page: " + VAR_ELEMENT_LENGTH + " ")
          section_end()!
 
          section_start("", 634473161)!
@@ -139,23 +290,21 @@
       })!
       section_end()!
 
-      section_start("", 245057641)!
-      /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJhcHAuY2F0ZWdvcnkucGFyc2UubGVuZ3RoIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
-      _do(function(){
-      VAR_CYCLE_INDEX = _iterator() - 1
-      BREAK_CONDITION = app.category.parse.length;
-      if(!BREAK_CONDITION)_break();
-      section_insert()
-         section_start("", 108416594)!
-         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jYXRlZ29yeS5jdXJJdGVtID0gYXBwLmNhdGVnb3J5LnBhcnNlLnBvcCgpOyIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
-         app.category.curItem = app.category.parse.pop();
-         section_end()!
+      section_start("", 977548741)!
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkpTT04uc3RyaW5naWZ5KGFwcC5jYXRlZ29yeS5wYXJzZSkubGVuZ3RoIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      log(JSON.stringify(app.category.parse).length)
+      section_end()!
 
-         section_start("", 471209652)!
-         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Im9wZW5SZWNpcGUifV19*/
-         _call(openRecipe,null)!
-         section_end()!
-
+      section_start("", 600290143)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Il9jYWxsKGFwcC5wb3N0LnJ1biwgXG57XG4gICAgdXJsOiBcInJlY2lwZXMvcGFyc2UvY2F0ZWdvcnlJc1BhcnNlZFwiLFxucGFyYW1zOlxue1xuICBpZDogYXBwLmNhdGVnb3J5LmlkLFxuICBsaXN0OiBKU09OLnN0cmluZ2lmeShhcHAuY2F0ZWdvcnkucGFyc2UpXG59XG59KSEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      _call(app.post.run,
+      {
+      url: "recipes/parse/categoryIsParsed",
+      params:
+      {
+      id: app.category.id,
+      list: JSON.stringify(app.category.parse)
+      }
       })!
       section_end()!
 
@@ -322,15 +471,15 @@ ProxyTunneling=false
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
 --enable-widevine-cdm</ChromeCommandLine>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
