@@ -295,10 +295,10 @@
    section_end()!
 
    section_start("", 15127838)!
-   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jb250ZW50X3R5cGUgPSB7e2NvbnRlbnRfdHlwZX19O1xuYXBwLmdyb3VwID0gbnVsbDtcbmFwcC5ncm91cHNfZG9ub3IgPSBcbntcbiAxOiBcbiBbXG5cdCdodHRwczovL29rLnJ1L2dyb3VwNTE5Nzc5OTc3NzkxMjcnLFxuXHQnaHR0cHM6Ly9vay5ydS9taWxpZS5kZXRraScsXG5cdCdodHRwczovL29rLnJ1L2hhcHB5LmtpZHMnXG4gXSxcbiAyOiBcbiBbXG5cdCdodHRwczovL29rLnJ1L3NvdnIubWFtJyxcblx0J2h0dHBzOi8vb2sucnUvamFob3pqYWlrYScsXG5cdCdodHRwczovL29rLnJ1L21hbWFiZXN0J1xuIF1cbn07IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+   /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImFwcC5jb250ZW50X3R5cGUgPSB7e2NvbnRlbnRfdHlwZX19O1xuYXBwLmdyb3VwID0gbnVsbDtcbmFwcC5ncm91cHNfZG9ub3IgPSBcbntcbiAxOiBcbiBbXG5cdCdodHRwczovL29rLnJ1L2dyb3VwNTE5Nzc5OTc3NzkxMjcnLFxuXHQnaHR0cHM6Ly9vay5ydS9taWxpZS5kZXRraScsXG5cdCdodHRwczovL29rLnJ1L2hhcHB5LmtpZHMnLFxuICAgICAgICAnaHR0cHM6Ly9vay5ydS9zb3ZyLm1hbScsXG5cdCdodHRwczovL29rLnJ1L2phaG96amFpa2EnXG4gXSxcbiAyOiBcbiBbXG5cdFxuIF1cbn07IiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
    RS("content_type", false, false)!
-   RESOURCE_872171 = _result().get()
-   app.content_type = RESOURCE_872171;
+   RESOURCE_756639 = _result().get()
+   app.content_type = RESOURCE_756639;
    app.group = null;
    app.groups_donor =
    {
@@ -306,13 +306,12 @@
    [
    'https://ok.ru/group51977997779127',
    'https://ok.ru/milie.detki',
-   'https://ok.ru/happy.kids'
+   'https://ok.ru/happy.kids',
+   'https://ok.ru/sovr.mam',
+   'https://ok.ru/jahozjaika'
    ],
    2:
    [
-   'https://ok.ru/sovr.mam',
-   'https://ok.ru/jahozjaika',
-   'https://ok.ru/mamabest'
    ]
    };
    section_end()!
@@ -722,15 +721,15 @@ Modules=&quot;&quot;
      <ChromeCommandLine>--disable-gpu
 --disable-gpu-compositing
 --enable-widevine-cdm</ChromeCommandLine>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -743,8 +742,8 @@ Modules=&quot;&quot;
      <ModelList>
           <Model>
                <Name>content_type</Name>
-               <Description en="content_type" ru="content_type"/>
-               <SectionName en="" ru=""/>
+               <Description ru="content_type" en="content_type"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
